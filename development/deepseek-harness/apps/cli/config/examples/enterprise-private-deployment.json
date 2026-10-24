@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "home": "./private-office-data",
+  "office": {
+    "companyName": "Private company",
+    "timeZone": "Asia/Shanghai",
+    "members": [
+      { "id": "owner", "name": "Administrator", "department": "Office", "jobTitle": "Administrator", "role": "admin" },
+      { "id": "local", "name": "Employee", "department": "Office", "jobTitle": "Employee", "role": "employee" }
+    ],
+    "principalId": "local",
+    "scheduleAvailabilityEnabled": false,
+    "connectorAllowedOrigins": ["http://127.0.0.1:18082"],
+    "connectorCredentials": { "company-oa": "COMPANY_OA_TOKEN" },
+    "connectorTimeoutMs": 5000
+  },
+  "model": {
+    "route": "private-company",
+    "displayName": "Private model",
+    "baseURL": "http://127.0.0.1:18081/v1",
+    "api": "openai-completions",
+    "apiKeyEnv": "COMPANY_MODEL_API_KEY",
+    "models": [{ "id": "company-model", "contextWindow": 32768, "maxTokens": 4096 }]
+  },
+  "privacy": {
+    "sessionTelemetry": { "mode": "disabled" },
+    "productAnalytics": "disabled",
+    "webSearch": { "enabled": false },
+    "webFetch": false
+  },
+  "diagnostics": {
+    "timeoutMs": 2000,
+    "probes": [
+      { "name": "model-health", "url": "http://127.0.0.1:18081/health" },
+      { "name": "oa-health", "url": "http://127.0.0.1:18082/health" }
+    ]
+  }
+}

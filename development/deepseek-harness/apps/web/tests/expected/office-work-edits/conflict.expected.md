@@ -1,0 +1,23 @@
+- dialog "Edit work item":
+  - heading "Edit work item" [level=2]
+  - button "Close"
+  - alert:
+    - paragraph: This work item changed. Your draft is preserved. Load the latest item before editing again.
+    - button "Load latest work item"
+  - text: Title
+  - textbox "Title": Preserved content draft
+  - text: Date
+  - textbox "Date": 2026-10-20
+  - text: Due time (optional)
+  - textbox "Due time (optional)": 09:30
+  - text: Priority
+  - combobox "Priority":
+    - option "Low"
+    - option "Normal" [selected]
+    - option "High"
+    - option "Urgent"
+  - text: Notes
+  - textbox "Notes"
+  - paragraph: Content and deadline edits preserve the assignee, status and existing action history.
+  - button "Cancel"
+  - button "Save" [disabled]

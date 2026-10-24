@@ -1,0 +1,37 @@
+# Local employee workbench over the unchanged Web/Desktop composition.
+# Company, directory and principal can be replaced by an explicit deployment patch.
+- id: enterprise-office
+  disabled: false
+  config:
+    # Entry config replaces the bundle value; keep its complete bootstrap directory.
+    companyName: 我的企业
+    timeZone: Asia/Shanghai
+    members:
+      - { id: owner, name: 企业管理员, department: 行政, jobTitle: 管理员, role: admin }
+      - { id: local, name: 本机用户, department: 我的部门, jobTitle: 员工, role: employee }
+    scheduleAvailabilityEnabled: true
+    reminders:
+      pollIntervalMs: 5000
+      catchUpWindowMs: 86400000
+      maxEntries: 10000
+      maxBytes: 8388608
+    conversationPptx:
+      maxBytes: 8388608
+      maxArchiveEntries: 2048
+      maxInflatedBytes: 33554432
+      maxXmlBytes: 8388608
+      maxNodes: 500000
+      maxSlides: 200
+      maxTextCharacters: 1048576
+      maxOutputBytes: 65536
+      timeoutMs: 5000
+      workerMemoryMb: 128
+- id: ui-office
+  disabled: false
+- id: tool-office
+  disabled: false
+  config:
+    pptx: true
+- id: ui-settings-models
+  config:
+    credentialOnboarding: false

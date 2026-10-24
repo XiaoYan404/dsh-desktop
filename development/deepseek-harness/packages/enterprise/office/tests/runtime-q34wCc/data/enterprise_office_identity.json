@@ -1,0 +1,48 @@
+{
+  "unit": {
+    "name": "enterprise_office_identity",
+    "version": 1
+  },
+  "global": {
+    "initialized": true,
+    "revision": 2,
+    "credentials": [
+      {
+        "memberId": "reviewed-image-admin",
+        "revision": 1,
+        "scheme": "scrypt-131072-8-1",
+        "salt": "6829b234a120e37930a1505aaaaec69a",
+        "digest": "07adb237fc0680624df790ccc91024efdd679ea78ed2f44c3470304f443700d5079c203a69faa256aa8c6fc86106e4195e00eebda0b856e362a28aa8ac46faa9",
+        "createdAt": 1792407539476,
+        "updatedAt": 1792407539476
+      }
+    ],
+    "sessions": [
+      {
+        "id": "800fc949-3000-4840-8a1f-75b28349b4f2",
+        "memberId": "reviewed-image-admin",
+        "credentialRevision": 1,
+        "tokenHash": "3e78a441ac3d78555ed4cea48cd6f7008dc3a2e4a121881fbca366e9887d6802",
+        "createdAt": 1792407539748,
+        "expiresAt": 1792436339748
+      }
+    ],
+    "audit": [
+      {
+        "revision": 1,
+        "actorId": "reviewed-image-admin",
+        "targetId": "reviewed-image-admin",
+        "time": 1792407539477,
+        "action": "initialized"
+      },
+      {
+        "revision": 2,
+        "actorId": "reviewed-image-admin",
+        "targetId": "reviewed-image-admin",
+        "time": 1792407539748,
+        "action": "signed_in"
+      }
+    ]
+  },
+  "tables": {}
+}

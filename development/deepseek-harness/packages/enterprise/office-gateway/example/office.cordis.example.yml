@@ -1,0 +1,25 @@
+# Run from the repository root after building. Use a dedicated data directory.
+- name: '@deepseek-ai/dsh-credentials-local'
+  config:
+    dshHome: ./office-server-data
+    watch: false
+- name: '@deepseek-ai/dsh-storage'
+- name: '@deepseek-ai/dsh-storage-json'
+  config:
+    root: ./office-server-data/domains
+- name: '@deepseek-ai/dsh-storage-domain'
+  config:
+    backend: json
+- name: '@deepseek-ai/dsh-enterprise-office'
+  config:
+    dshHome: ./office-server-data
+    companyName: My company
+    timeZone: Asia/Shanghai
+    members:
+      - { id: admin, name: Administrator, department: Office, jobTitle: Administrator, role: admin }
+- name: '@deepseek-ai/dsh-enterprise-office-gateway'
+  config:
+    host: 127.0.0.1
+    port: 3082
+    administratorId: admin
+    initialPasswordRef: OFFICE_BOOTSTRAP_PASSWORD

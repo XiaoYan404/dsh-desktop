@@ -1,0 +1,3 @@
+- insert:
+    - id: office-lifecycle-adapter
+      name: '@fixture/office-connector'

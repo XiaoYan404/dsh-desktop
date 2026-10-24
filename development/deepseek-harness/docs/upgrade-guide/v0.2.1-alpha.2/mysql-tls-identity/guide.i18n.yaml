@@ -1,0 +1,16 @@
+# Bilingual-pair consistency record for guide.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write docs/upgrade-guide/v0.2.1-alpha.2/mysql-tls-identity/guide.md
+/:
+  en: 2a64b79d8f71ea34
+  zh: 124030f45aa8c43a
+/declare-the-mysql-tls-server-identity-when-dialing-an-ip:
+  en: e820da00b588a7fe
+  zh: e6e5db26e303ed71
+/declare-the-mysql-tls-server-identity-when-dialing-an-ip/change:
+  en: 9fefea07a195afe5
+  zh: b5bc055cde64f1ff
+/declare-the-mysql-tls-server-identity-when-dialing-an-ip/migration:
+  en: 878559696a94f6fc
+  zh: d3df5f92d177afe1

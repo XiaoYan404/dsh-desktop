@@ -1,0 +1,101 @@
+test_01_native_startup_and_resource_independence (__main__.NativeReview.test_01_native_startup_and_resource_independence)
+Round 01: real native window and no browser engine dependencies. ... ok
+test_02_all_navigation_and_selection (__main__.NativeReview.test_02_all_navigation_and_selection)
+Round 02: every primary destination and selected state. ... ok
+test_03_desktop_sizes_and_composer_visibility (__main__.NativeReview.test_03_desktop_sizes_and_composer_visibility)
+Round 03: three desktop dimensions and the fixed composer. ... ok
+test_04_search_no_results_and_keyboard (__main__.NativeReview.test_04_search_no_results_and_keyboard)
+Round 04: native global search, empty result and keyboard activation. ... ok
+test_05_draft_preservation_and_task_isolation (__main__.NativeReview.test_05_draft_preservation_and_task_isolation)
+Round 05: drafts survive navigation; new tasks cancel pending work. ... ok
+test_06_workbench_creation_validation_and_live_filter (__main__.NativeReview.test_06_workbench_creation_validation_and_live_filter)
+Round 06: blank/duplicate validation and live search. ... ok
+test_07_business_scenario_contexts_and_template (__main__.NativeReview.test_07_business_scenario_contexts_and_template)
+Round 07: each scenario has distinct input and template selection. ... ok
+test_08_send_stop_complete_and_nonblocking_timer (__main__.NativeReview.test_08_send_stop_complete_and_nonblocking_timer)
+Round 08: empty input, stop and completion without business calls. ... ok
+test_09_approval_cancel_then_confirm (__main__.NativeReview.test_09_approval_cancel_then_confirm)
+Round 09: cancelling a decision cannot approve a task. ... ok
+test_10_rejection_and_review_trail (__main__.NativeReview.test_10_rejection_and_review_trail)
+Round 10: reject requires a reason, preserved in the review list. ... ok
+test_11_task_filters_selection_and_empty_state (__main__.NativeReview.test_11_task_filters_selection_and_empty_state)
+Work filters show matching cards, a useful empty state and clickable details. ... ok
+test_12_file_metadata_cancel_search_and_publication (__main__.NativeReview.test_12_file_metadata_cancel_search_and_publication)
+Round 12: import records metadata only, handles missing/cancelled files. ... ok
+test_13_report_export_cancel_unicode_and_errors (__main__.NativeReview.test_13_report_export_cancel_unicode_and_errors)
+Round 13: native save, UTF-8 export, cancel and write failure. ... ERROR:root:Demo export failed
+Traceback (most recent call last):
+  File "E:\CodeRepository\VibeCoding\Agent封装Claude\企业工作台页面原型改造\app.py", line 721, in save_text
+    Path(path).write_text(text, encoding='utf-8-sig')
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\conda\Lib\pathlib\_local.py", line 555, in write_text
+    return PathBase.write_text(self, data, encoding, errors, newline)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\conda\Lib\pathlib\_abc.py", line 651, in write_text
+    with self.open(mode='w', encoding=encoding, errors=errors, newline=newline) as f:
+         ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\conda\Lib\pathlib\_local.py", line 537, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\Xiaoyan\\AppData\\Local\\Temp\\qt-prototype-review-4rchfeaw'
+ok
+test_14_agent_edit_create_duplicate_and_export (__main__.NativeReview.test_14_agent_edit_create_duplicate_and_export)
+Round 14: editing/reusing agents and truthful configuration export. ... ok
+test_15_plugin_dependency_cancel_and_config (__main__.NativeReview.test_15_plugin_dependency_cancel_and_config)
+Round 15: dependency prompt cancel must preserve checkbox state. ... ok
+test_16_market_preflight_install_remove (__main__.NativeReview.test_16_market_preflight_install_remove)
+Round 16: simulated marketplace activation and removal. ... ok
+test_17_enterprise_roles_invites_and_policy (__main__.NativeReview.test_17_enterprise_roles_invites_and_policy)
+Round 17: proposed roles and invitation drafts never send messages. ... ok
+test_18_preferences_only_atomic_corruption_and_failure (__main__.NativeReview.test_18_preferences_only_atomic_corruption_and_failure)
+Round 18: only appearance persists, corrupt files do not break startup. ... ERROR:root:Preference save failed
+Traceback (most recent call last):
+  File "E:\CodeRepository\VibeCoding\Agent封装Claude\企业工作台页面原型改造\app.py", line 78, in save_preferences
+    self.store.save(self.state)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "D:\conda\Lib\unittest\mock.py", line 1169, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "D:\conda\Lib\unittest\mock.py", line 1173, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "D:\conda\Lib\unittest\mock.py", line 1228, in _execute_mock_call
+    raise effect
+PermissionError: read only
+ok
+test_19_settings_privacy_phone_recovery_and_theme (__main__.NativeReview.test_19_settings_privacy_phone_recovery_and_theme)
+Round 19: desktop settings, disabled secrets, pair/unpair, recovery. ... ok
+test_20_input_safety_escape_reset_and_teardown (__main__.NativeReview.test_20_input_safety_escape_reset_and_teardown)
+Round 20: plain text, Esc, reset and no orphan execution timer. ... ok
+test_21_home_agenda_keeps_time_order_and_opens_full_ai_conversation (__main__.NativeReview.test_21_home_agenda_keeps_time_order_and_opens_full_ai_conversation)
+The combined agenda keeps all pending work, with an embedded chat below. ... ok
+test_22_item_keyboard_opens_detail_then_unsent_assistance (__main__.NativeReview.test_22_item_keyboard_opens_detail_then_unsent_assistance)
+A timeline item opens its own page before explicitly requested assistance. ... ok
+test_23_item_attachment_metadata_stays_with_its_conversation (__main__.NativeReview.test_23_item_attachment_metadata_stays_with_its_conversation)
+Selecting materials never reads their body and does not leak into other items. ... ok
+test_24_continue_current_task_keeps_work_context (__main__.NativeReview.test_24_continue_current_task_keeps_work_context)
+Returning through the conversation rail keeps current context and materials. ... ok
+test_25_work_card_keyboard_opens_record_or_active_task (__main__.NativeReview.test_25_work_card_keyboard_opens_record_or_active_task)
+Work cards expose a keyboard action for both completed and pending work. ... ok
+test_26_work_pages_show_artifacts_without_management_tables (__main__.NativeReview.test_26_work_pages_show_artifacts_without_management_tables)
+Home, work and materials retain direct artifact access without data tables. ... ok
+test_27_desktop_primary_controls_remain_in_view (__main__.NativeReview.test_27_desktop_primary_controls_remain_in_view)
+Primary controls and rail destinations fit all supported desktop sizes. ... ok
+test_28_item_conversations_keep_messages_drafts_and_results_separate (__main__.NativeReview.test_28_item_conversations_keep_messages_drafts_and_results_separate) ... ok
+test_29_today_empty_and_date_status_scope (__main__.NativeReview.test_29_today_empty_and_date_status_scope) ... ok
+test_30_general_chat_survives_item_assistance_and_new_work (__main__.NativeReview.test_30_general_chat_survives_item_assistance_and_new_work) ... ok
+test_31_unavailable_item_and_unconnected_source_are_honest (__main__.NativeReview.test_31_unavailable_item_and_unconnected_source_are_honest) ... ok
+test_32_single_navigation_rail_keeps_new_work_and_search (__main__.NativeReview.test_32_single_navigation_rail_keeps_new_work_and_search) ... ok
+test_33_calendar_opens_today_and_switches_dates (__main__.NativeReview.test_33_calendar_opens_today_and_switches_dates) ... ok
+test_34_create_schedule_with_multiple_member_invitations (__main__.NativeReview.test_34_create_schedule_with_multiple_member_invitations) ... ok
+test_35_schedule_validation_and_cancel_leave_no_partial_records (__main__.NativeReview.test_35_schedule_validation_and_cancel_leave_no_partial_records) ... ok
+test_36_schedule_uses_selected_day_and_does_not_leak_into_today (__main__.NativeReview.test_36_schedule_uses_selected_day_and_does_not_leak_into_today) ... ok
+test_37_schedule_dialog_primary_controls_fit_small_window (__main__.NativeReview.test_37_schedule_dialog_primary_controls_fit_small_window) ... ok
+test_38_home_chat_sends_and_shares_general_conversation_without_losing_item_draft (__main__.NativeReview.test_38_home_chat_sends_and_shares_general_conversation_without_losing_item_draft) ... ok
+test_39_dashboard_progress_follows_today_work_status (__main__.NativeReview.test_39_dashboard_progress_follows_today_work_status) ... ok
+test_40_home_empty_send_stays_and_keyboard_send_opens_chat_once (__main__.NativeReview.test_40_home_empty_send_stays_and_keyboard_send_opens_chat_once) ... ok
+
+----------------------------------------------------------------------
+Ran 40 tests in 2.715s
+
+OK

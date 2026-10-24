@@ -1,0 +1,74 @@
+{
+  "source": "development/deepseek-harness",
+  "prototype": "development/企业工作台页面原型改造",
+  "privateArchive": "local-only/consolidation-20261024T184401Z",
+  "filesVerified": 19362,
+  "bytesVerified": 286856978,
+  "originalDirectoriesRetained": true,
+  "taskCounts": {
+    "total": 175,
+    "completed": 137,
+    "inProgress": 35,
+    "notStarted": 3
+  },
+  "releaseAccepted": false,
+  "executableCreated": true,
+  "documents": "development/企业工作台页面开发文档",
+  "runtimeRecords": {
+    "filesVerified": 24944,
+    "archiveAttemptsPreserved": 3
+  },
+  "historyBundlesVerified": 3,
+  "node": "24.22.0",
+  "pnpm": "11.28.5",
+  "edition": "enterprise-development",
+  "sourceHandoffSnapshot": {
+    "files": 131,
+    "matched": 131,
+    "comparisonStage": "Before the separately recorded trailing-newline-only formatting",
+    "formatOnlyChanges": [
+      "packages/enterprise/office/src/message-provider.ts"
+    ],
+    "documentationChanges": [
+      "parallel-tasks/01-native-runtime/task.md"
+    ]
+  },
+  "sourcePush": {
+    "remote": "origin",
+    "branch": "delivery/enterprise-workspace-20261025",
+    "verificationReceipt": "local-only/consolidation-20261024T184401Z/push-receipt.json"
+  },
+  "generatedEmissionsArchived": 68,
+  "installer": {
+    "path": "dist-enterprise/EnterpriseOfficeAgent-Dev-20261025-r2-x64-Setup.exe",
+    "version": "0.1.1-enterprise.20261025.2",
+    "bytes": 960348291,
+    "sha256": "f8223b8fbd4727214950f4ee852a26893ff7b8828826a33f50f667bb88a2f362",
+    "signature": "NotSigned",
+    "installed": true
+  },
+  "gui": {
+    "installedAttempts": 2,
+    "passed": true,
+    "port": 56327,
+    "exitCode": 0,
+    "controllerStatus": "stopped",
+    "sourceGuiAttempts": 3,
+    "sourceGuiCapPreserved": true
+  },
+  "validation": {
+    "fullRootR1": {
+      "passed": 1599,
+      "failed": 30,
+      "skipped": 7
+    },
+    "focusedR2": {
+      "passed": 10
+    },
+    "remainingRootFailures": 20,
+    "strictClientAccepted": false,
+    "completeReleaseBuild": false,
+    "sceneConfigurationServiceUnavailable": true
+  },
+  "privateSupplementReceipt": "local-only/consolidation-20261024T184401Z/runtime-script-supplements/manifest.json"
+}

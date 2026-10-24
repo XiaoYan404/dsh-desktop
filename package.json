@@ -24,7 +24,10 @@
   ],
   "scripts": {
     "postinstall": "patch-package && node scripts/install-brand-assets.mjs && install-electron --no",
-    "dev": "npm run office:prepare && npm run ppt:build && electron-vite dev",
+    "dev": "npm run dev:enterprise",
+    "dev:classic": "npm run office:prepare && npm run ppt:build && electron-vite dev",
+    "dev:enterprise": "node scripts/prepare-enterprise-app.mjs && electron .build/enterprise-app",
+    "package:enterprise:win": "node scripts/package-enterprise-windows.mjs",
     "build": "npm run office:prepare && npm run ppt:build && electron-vite build",
     "icons:generate": "node scripts/generate-app-icons.mjs",
     "loader:generate": "node scripts/generate-loader-gifs.mjs",

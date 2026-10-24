@@ -1,0 +1,19 @@
+- heading "AI chat" [level=2]
+- button "Open conversation"
+- region "Association details":
+  - button "Link integrations"
+  - button "Link tools"
+  - button "Refresh"
+  - text: No integrations or tools linked
+- region "Conversation files":
+  - button "Link files"
+  - button "Refresh files"
+- group "Pending attachments":
+  - text: home-shared.txt TXT 18B
+  - button "Remove file home-shared.txt"
+- textbox "Message or run a task, / commands, @ files or sessions":
+  - paragraph: Continue this same ordinary conversation
+- button "Add files or run commands"
+- 'button "Access mode, current: Workspace Write"': Workspace Write
+- button "Select model, current DeepSeek-V4-Flash": DeepSeek-V4-Flash
+- button "Send message"

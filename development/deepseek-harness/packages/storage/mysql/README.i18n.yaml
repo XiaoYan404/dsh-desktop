@@ -1,0 +1,58 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/storage/mysql/README.md
+/:
+  en: 7db08448b9f18c7b
+  zh: 2fea0c9ee4ae9c62
+/deepseek-ai-dsh-mysql:
+  en: cd3452ad929a5581
+  zh: a019db19c79442ca
+/deepseek-ai-dsh-mysql/summary:
+  en: d36f5805b7618622
+  zh: 18620f1f0c6eeb3d
+/deepseek-ai-dsh-mysql/table-of-contents:
+  en: d152484eb41ac6b4
+  zh: a134331a31395608
+/deepseek-ai-dsh-mysql/use-this-package:
+  en: f2e06a4dc23b5689
+  zh: 0d1d1d24b600ef1f
+/deepseek-ai-dsh-mysql/use-this-package/deployment-prerequisites:
+  en: d9408d4578b61387
+  zh: 829f777b6e84d722
+/deepseek-ai-dsh-mysql/use-this-package/tls-server-identity:
+  en: f77cdb7117f96ab6
+  zh: 7e36c55feea3b003
+/deepseek-ai-dsh-mysql/use-this-package/failures-and-recovery:
+  en: 8ac32c39a426d1b7
+  zh: cb0971f3642e29f3
+/deepseek-ai-dsh-mysql/understand-the-implementation:
+  en: 6294651e7e34f3f6
+  zh: fae5702761b5bb7e
+/deepseek-ai-dsh-mysql/understand-the-implementation/source-map:
+  en: aeb164a96bb0792d
+  zh: d94e7c5e1c538df9
+/deepseek-ai-dsh-mysql/further-exploration:
+  en: 152fa194f51a5307
+  zh: b473df015be4cd36
+/deepseek-ai-dsh-mysql/model-experience:
+  en: 215e7ba838619b7b
+  zh: a311da3843709f90
+/deepseek-ai-dsh-mysql/model-experience/database-transport:
+  en: b3e5026833e70980
+  zh: 29ab7bc3eb072f7e
+/deepseek-ai-dsh-mysql/model-experience/database-transport/what-the-model-sees:
+  en: 4430358d8b106fc6
+  zh: 09de41e6b5b896e0
+/deepseek-ai-dsh-mysql/model-experience/database-transport/token-effect:
+  en: 592ed887c69e5c46
+  zh: cb9be9de6e38db55
+/deepseek-ai-dsh-mysql/model-experience/database-transport/kv-cache-effect:
+  en: 79a59b04e29256ea
+  zh: 2d58cdbabf8c853f
+/deepseek-ai-dsh-mysql/known-limitations-and-deferred-work:
+  en: 97b8208ba2a31780
+  zh: d2b8b396602230df
+/deepseek-ai-dsh-mysql/known-limitations-and-deferred-work/dev-note:
+  en: e67f633dc6fe7773
+  zh: e88aeb617ffb74ea

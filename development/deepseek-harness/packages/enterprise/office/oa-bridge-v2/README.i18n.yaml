@@ -1,0 +1,28 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/enterprise/office/oa-bridge-v2/README.md
+/oa-bridge-v2-reference:
+  en: 98c27c634469dd9f
+  zh: 79783c91c1e7936b
+/oa-bridge-v2-reference/summary:
+  en: e05424e2fa8f37d9
+  zh: b5677b4fa939575c
+/oa-bridge-v2-reference/table-of-contents:
+  en: e527afb007beafd5
+  zh: c3a159ce06b32344
+/oa-bridge-v2-reference/configuration:
+  en: b2f9bb4e0937080f
+  zh: 7a10dbcfaf33d7fb
+/oa-bridge-v2-reference/http-operations:
+  en: 7f2762ccce0a7bc8
+  zh: a836ac51b093520e
+/oa-bridge-v2-reference/materials:
+  en: b719955427e3a8e8
+  zh: f1ae9b6a9ddfd49a
+/oa-bridge-v2-reference/acceptance-and-recovery:
+  en: 6a4cb92e586c9378
+  zh: effafc6a9d2fbfc3
+/oa-bridge-v2-reference/known-limitations:
+  en: 579feddeb8793c92
+  zh: df742e66dbcfad8e

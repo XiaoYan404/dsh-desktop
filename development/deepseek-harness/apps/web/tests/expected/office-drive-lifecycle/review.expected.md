@@ -1,0 +1,6 @@
+- region "Review new version":
+  - strong: Review new version
+  - paragraph: "File to update: Reviewed logical.txt"
+  - paragraph: "Selected file: Different source.bin · 23 B"
+  - button "Cancel"
+  - button "Confirm new version"

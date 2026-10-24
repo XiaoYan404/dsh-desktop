@@ -1,0 +1,32 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`employee office composition > persists assignments, distinct invitations, replies, notifications and profile changes across restart 1`] = `
+{
+  "completed": 1,
+  "completionRate": 50,
+  "items": [
+    {
+      "participants": [],
+      "status": "completed",
+      "time": "09:30",
+      "title": "整理周报",
+    },
+    {
+      "participants": [
+        {
+          "memberId": "lin",
+          "reply": "accepted",
+        },
+        {
+          "memberId": "chen",
+          "reply": "accepted",
+        },
+      ],
+      "status": "pending",
+      "time": "10:00",
+      "title": "周会",
+    },
+  ],
+  "pending": 1,
+}
+`;

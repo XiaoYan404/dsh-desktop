@@ -1,0 +1,9 @@
+- dialog "Restore":
+  - heading "Restore" [level=2]
+  - button "Close"
+  - strong: Changed recovery.txt
+  - text: Name
+  - textbox "Name": Recovered UI.txt
+  - paragraph: Restore to the original folder. Change the restore name if a sibling already uses it.
+  - button "Cancel"
+  - button "Restore"

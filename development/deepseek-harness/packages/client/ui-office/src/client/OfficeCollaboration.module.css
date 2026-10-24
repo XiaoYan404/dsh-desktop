@@ -1,0 +1,23 @@
+.dialog { width: min(840px, 100%); max-height: 100%; }
+.content { min-height: 0; overflow: hidden; }
+.panel { display: flex; flex-direction: column; gap: 12px; width: 100%; min-width: 0; min-height: 0; max-height: 100%; overflow: auto; color: var(--dsw-alias-label-primary); font-size: 13px; }
+.row { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; min-width: 0; }
+.form { display: flex; flex-direction: column; gap: 12px; }
+.form label:has(input:not([type='checkbox'])), .form label:has(textarea) { display: flex; flex-direction: column; gap: 4px; }
+.form fieldset { display: flex; flex-wrap: wrap; gap: 8px; min-width: 0; border: 0.5px solid var(--dsw-alias-border-l3); border-radius: var(--dsw-radius-md); padding: 12px; }
+.form .fields { flex-direction: column; border: 0; padding: 0; margin: 0; gap: 12px; }
+.panel > section[hidden] { display: none; }
+.panel h3, .item strong { font-weight: 500; }
+.list { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 8px; }
+.item { padding: 10px; border: 0.5px solid var(--dsw-alias-border-l3); border-radius: var(--dsw-radius-md); overflow-wrap: anywhere; }
+.item time { margin-inline-start: 8px; color: var(--dsw-alias-label-secondary); }
+.message { white-space: pre-wrap; overflow-wrap: anywhere; }
+.form textarea { min-height: 80px; resize: vertical; color: var(--dsw-alias-label-primary); background: var(--dsw-alias-bg-layer-1); border: 0.5px solid var(--dsw-alias-border-l3); border-radius: var(--dsw-radius-md); padding: 8px; font: inherit; }
+.notice { margin: 0; padding: 10px 12px; border-radius: var(--dsw-radius-md); background: var(--dsw-alias-bg-layer-1); overflow-wrap: anywhere; }
+.notice p { margin: 0 0 8px; }
+.metrics { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 8px; margin: 0; }
+.metrics > div { padding: 10px; border: 0.5px solid var(--dsw-alias-border-l3); border-radius: var(--dsw-radius-md); }
+.metrics dd { margin: 4px 0 0; font-weight: 500; }
+.metrics small { display: block; margin-top: 4px; color: var(--dsw-alias-label-secondary); font-weight: 400; }
+.auditFields { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(220px, 100%), 1fr)); gap: 12px; }
+.auditFields label { min-width: 0; }

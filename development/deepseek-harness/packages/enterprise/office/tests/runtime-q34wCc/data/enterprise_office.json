@@ -1,0 +1,28 @@
+{
+  "unit": {
+    "name": "enterprise_office",
+    "version": 1
+  },
+  "global": {
+    "initialized": true,
+    "revision": 0,
+    "companyName": "Reviewed image response",
+    "timeZone": "Asia/Shanghai",
+    "members": [
+      {
+        "name": "Image administrator",
+        "department": "Office",
+        "jobTitle": "Administrator",
+        "email": "",
+        "phone": "",
+        "id": "reviewed-image-admin",
+        "role": "admin",
+        "active": true
+      }
+    ],
+    "items": [],
+    "notifications": [],
+    "audit": []
+  },
+  "tables": {}
+}

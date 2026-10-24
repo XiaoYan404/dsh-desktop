@@ -1,0 +1,5 @@
+- list "Background jobs":
+  - listitem:
+    - button "Finished 1" [expanded]
+    - button "Clear"
+  - listitem: "pwsh [IO.File]::WriteAllText((Join-Path (Get-Location).Path '.background-job-list.ready'), '{{uuid}}', [Text.UTF8Encoding]::new($false)); for ($index = 0; $index -lt 3000; $index++) { if (Test-Path -LiteralPath '.background-job-list.release') { break }; Start-Sleep -Milliseconds 200 } killed before exit; cancelled by the user {{duration}}"

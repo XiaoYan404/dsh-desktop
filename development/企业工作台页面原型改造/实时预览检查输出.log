@@ -1,0 +1,15 @@
+test_child_close_ends_supervisor (__main__.LivePreviewReview.test_child_close_ends_supervisor) ... ok
+test_existing_supervisor_receives_activation (__main__.LivePreviewReview.test_existing_supervisor_receives_activation) ... ok
+test_invalid_startup_recovers_after_save (__main__.LivePreviewReview.test_invalid_startup_recovers_after_save) ... ok
+test_logs_preferences_and_atomic_save (__main__.LivePreviewReview.test_logs_preferences_and_atomic_save) ... ok
+test_runtime_failure_is_reported_and_fix_restarts (__main__.LivePreviewReview.test_runtime_failure_is_reported_and_fix_restarts) ... ok
+test_save_restarts_once_with_latest_code (__main__.LivePreviewReview.test_save_restarts_once_with_latest_code) ... ok
+test_syntax_error_keeps_window_then_recovers (__main__.LivePreviewReview.test_syntax_error_keeps_window_then_recovers) ... ok
+System.Management.Automation.RemoteException
+----------------------------------------------------------------------
+Ran 7 tests in 15.958s
+System.Management.Automation.RemoteException
+OK
+
+Actual desktop acceptance: LIVE_RELOAD_OK (48632 -> 47260; launch count 2)
+Actual desktop acceptance: SINGLE_INSTANCE_OK; one visible V0.4 preview

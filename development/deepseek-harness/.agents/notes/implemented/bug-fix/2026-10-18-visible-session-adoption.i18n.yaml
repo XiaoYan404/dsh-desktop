@@ -1,0 +1,19 @@
+# Bilingual-pair consistency record for 2026-10-18-visible-session-adoption.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write .agents/notes/implemented/bug-fix/2026-10-18-visible-session-adoption.md
+/agent-note-check-current-visibility-at-explicit-session-adoption:
+  en: 6329ac14fcf5055d
+  zh: f57a39ea024acac8
+/agent-note-check-current-visibility-at-explicit-session-adoption/problem:
+  en: e057075e07ba43cc
+  zh: 8b061bd4391d0882
+/agent-note-check-current-visibility-at-explicit-session-adoption/decision:
+  en: 1c17887cd2189ed9
+  zh: 6de0a44e04ca68d8
+/agent-note-check-current-visibility-at-explicit-session-adoption/alternatives-considered:
+  en: da7f6d4d424d0d46
+  zh: 972df18ae83a6a87
+/agent-note-check-current-visibility-at-explicit-session-adoption/consequences:
+  en: b5623b9eead4dce6
+  zh: bb8f9564138c67f0

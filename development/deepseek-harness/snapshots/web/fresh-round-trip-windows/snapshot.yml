@@ -1,0 +1,9 @@
+version: 1
+scenario: fresh-round-trip-windows
+profile: web
+composition: web-default
+recording: authored
+platform: pwsh
+header:
+  class: web-default-windows
+  pin: true

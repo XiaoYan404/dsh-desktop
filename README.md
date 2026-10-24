@@ -24,6 +24,8 @@
 
 DSH Desktop packages the local DeepSeek Harness experience as an installed desktop application. It starts Harness automatically, keeps profiles, plugins, workspaces, model settings, and sessions outside the application directory, and opens the full Harness interface as soon as the local runtime is ready.
 
+This fork also consolidates the enterprise Agent sources, prototypes, development records and a Windows GUI development installer. See [the workspace and installer guide](project-docs/迁移与安装.md). `npm run dev` opens the enterprise development GUI; `npm run dev:classic` retains the original Desktop workflow. The enterprise development installer is unsigned; the release notes below describe upstream builds.
+
 > [!IMPORTANT]
 > DSH Desktop is an early preview built on the rapidly evolving `@deepseek-ai/dsh@0.2.0-rc.2`. macOS releases are code-signed and notarized by Apple. Windows x64 installers are code-signed; Windows security warnings may still decrease gradually as the publisher builds download and installation reputation.
 

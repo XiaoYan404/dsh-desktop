@@ -1,0 +1,11 @@
+- dialog "Permanently clear":
+  - heading "Permanently clear" [level=2]
+  - button "Close"
+  - strong: Native cleanup report.md
+  - paragraph: Clearing this record and all its versions cannot be undone. Every file must belong to you. Native Session deliverables remain intact.
+  - paragraph: "Files: 1 · Folders: 0 · Versions: 1 · Size: 59 B"
+  - checkbox "I have reviewed the scope and accept permanent deletion without restoration" [checked]
+  - text: I have reviewed the scope and accept permanent deletion without restoration
+  - button "Cancel"
+  - button "Load latest record"
+  - button "Confirm permanent cleanup"

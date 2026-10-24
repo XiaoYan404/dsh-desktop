@@ -1,0 +1,49 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/api/session-controller/README.md
+/:
+  en: 82789442228fc62a
+  zh: f1d511ad838187de
+/session-controller:
+  en: c7a4c58ea6d3437b
+  zh: 45c2b472a074bb1b
+/session-controller/summary:
+  en: 4914824c347fdab5
+  zh: 684a7b7fa970c39f
+/session-controller/table-of-contents:
+  en: 1fdf707322fb6996
+  zh: 0204f7e9d4aa3cce
+/session-controller/use-this-package:
+  en: 4942c06000e7a1a6
+  zh: e3301b2ca1868b6d
+/session-controller/client-references:
+  en: 41bdda1ac32df558
+  zh: aa5d0e325924066b
+/session-controller/session-media-references:
+  en: 96675ce4a4703a35
+  zh: c6bcc080beeb0b09
+/session-controller/configuration:
+  en: 5ae2b340c630897f
+  zh: 1ffbd61ecf302ec2
+/session-controller/model-experience:
+  en: 215e7ba838619b7b
+  zh: a311da3843709f90
+/session-controller/model-experience/native-prompt-preparation:
+  en: 94ae9fc22935bb94
+  zh: 2fa0fd9bdf4e76c8
+/session-controller/model-experience/native-prompt-preparation/what-the-model-sees:
+  en: 639b08b42cc00288
+  zh: b4230f5cdb66b892
+/session-controller/model-experience/native-prompt-preparation/token-effect:
+  en: 47d72cef51328a2d
+  zh: 2861cf74849899c8
+/session-controller/model-experience/native-prompt-preparation/kv-cache-effect:
+  en: b7e1528e743d8b44
+  zh: 0128a4ca2e1bc38a
+/session-controller/known-limitations-and-deferred-work:
+  en: 5db0f9f69a8be926
+  zh: 6ba1cc4a3850fcbc
+/session-controller/known-limitations-and-deferred-work/dev-note:
+  en: e67f633dc6fe7773
+  zh: e88aeb617ffb74ea

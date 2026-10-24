@@ -1,0 +1,8 @@
+- dialog "New folder":
+  - heading "New folder" [level=2]
+  - button "Close"
+  - text: Name
+  - textbox "Name": Retained folder draft
+  - status: This folder is read-only
+  - button "Cancel"
+  - button "Save" [disabled]

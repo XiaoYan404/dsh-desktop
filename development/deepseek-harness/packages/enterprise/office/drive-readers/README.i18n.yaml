@@ -1,0 +1,16 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/enterprise/office/drive-readers/README.md
+/drive-images-knowledge-and-office-delivery-checks:
+  en: 652f6fb27a32d347
+  zh: d135920024077318
+/drive-images-knowledge-and-office-delivery-checks/images:
+  en: f78aada61c896153
+  zh: bf91bddc1c71a851
+/drive-images-knowledge-and-office-delivery-checks/knowledge:
+  en: 40b67615fc57bab8
+  zh: 0434713e89120ff9
+/drive-images-knowledge-and-office-delivery-checks/office-delivery:
+  en: 09a5ac79f1b6ebeb
+  zh: cb1aa8965fbe20ad

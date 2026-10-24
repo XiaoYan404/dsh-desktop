@@ -1,0 +1,15 @@
+{
+  "extends": "../../../tsconfig.base.json",
+  "compilerOptions": { "rootDir": "src", "outDir": "lib/types" },
+  "include": ["src"],
+  "references": [
+    { "path": "../../storage/mysql" },
+    { "path": "../../core/session" },
+    { "path": "../../session/session-persistence" },
+    { "path": "../../session/session-persistence-mysql" },
+    { "path": "../session-query" },
+    { "path": "../../session/session-format" },
+    { "path": "../../session/session-format-catalog" },
+    { "path": "../../workspace/workspace" }
+  ]
+}

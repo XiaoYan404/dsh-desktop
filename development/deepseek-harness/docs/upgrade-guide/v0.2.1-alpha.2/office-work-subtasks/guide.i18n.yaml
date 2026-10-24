@@ -1,0 +1,16 @@
+# Bilingual-pair consistency record for guide.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write docs/upgrade-guide/v0.2.1-alpha.2/office-work-subtasks/guide.md
+/:
+  en: a4a958cec45bcee7
+  zh: 9faa01cdc79cb706
+/upgrade-office-readers-before-adding-work-subtasks:
+  en: d2307b0e989d60cc
+  zh: 2bcfae5e642c02db
+/upgrade-office-readers-before-adding-work-subtasks/change:
+  en: 40ba6b707824e1a4
+  zh: 9a1ebded8c32256e
+/upgrade-office-readers-before-adding-work-subtasks/migration:
+  en: 5575ee992fd9c17d
+  zh: 36d5e53f64e75862

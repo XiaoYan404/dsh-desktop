@@ -1,0 +1,14 @@
+- heading "Transfer task" [level=2]
+- alert:
+  - paragraph: This task changed. Your input is preserved. Load the latest task and review it again.
+  - button "Load latest task"
+- text: New assignee
+- combobox "New assignee":
+  - option "Choose a different assignee"
+  - option "Office administrator"
+  - option "Lin" [selected]
+- text: Reason
+- textbox "Reason": Preserved transfer reason
+- paragraph: A reason is required to reject or transfer a task
+- button "Cancel"
+- button "Save" [disabled]

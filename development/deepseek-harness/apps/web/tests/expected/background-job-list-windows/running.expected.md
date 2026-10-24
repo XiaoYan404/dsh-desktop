@@ -1,0 +1,4 @@
+- list "Background jobs":
+  - listitem:
+    - 'button "Show live output of [IO.File]::WriteAllText((Join-Path (Get-Location).Path ''.background-job-list.ready''), ''{{uuid}}'', [Text.UTF8Encoding]::new($false)); for ($index = 0; $index -lt 3000; $index++) { if (Test-Path -LiteralPath ''.background-job-list.release'') { break }; Start-Sleep -Milliseconds 200 }"': "[IO.File]::WriteAllText((Join-Path (Get-Location).Path '.background-job-list.ready'), '{{uuid}}', [Text.UTF8Encoding]::new($false)); for ($index = 0; $index -lt 3000; $index++) { if (Test-Path -LiteralPath '.background-job-list.release') { break }; Start-Sleep -Milliseconds 200 } pwsh {{duration}}"
+    - 'button "Stop task [IO.File]::WriteAllText((Join-Path (Get-Location).Path ''.background-job-list.ready''), ''{{uuid}}'', [Text.UTF8Encoding]::new($false)); for ($index = 0; $index -lt 3000; $index++) { if (Test-Path -LiteralPath ''.background-job-list.release'') { break }; Start-Sleep -Milliseconds 200 }"'

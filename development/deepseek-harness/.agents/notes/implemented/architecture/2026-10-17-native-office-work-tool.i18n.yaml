@@ -1,0 +1,22 @@
+# Bilingual-pair consistency record for 2026-10-17-native-office-work-tool.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write .agents/notes/implemented/architecture/2026-10-17-native-office-work-tool.md
+/agent-note-bind-internal-office-work-to-the-claimed-native-input:
+  en: a06013982e9f6e17
+  zh: 0b5e48ee6c95b17a
+/agent-note-bind-internal-office-work-to-the-claimed-native-input/problem:
+  en: 3d7705dd8caed73e
+  zh: 5d8cc10e44f802eb
+/agent-note-bind-internal-office-work-to-the-claimed-native-input/decision:
+  en: 26ffd015cc154f17
+  zh: b2c190022a652403
+/agent-note-bind-internal-office-work-to-the-claimed-native-input/alternatives-considered:
+  en: 5e24c2b5153439d6
+  zh: 532cda1190a0e99a
+/agent-note-bind-internal-office-work-to-the-claimed-native-input/verification:
+  en: f883369702f9eb87
+  zh: 07882489f9523600
+/agent-note-bind-internal-office-work-to-the-claimed-native-input/consequences:
+  en: 8a87542d2bc81a63
+  zh: a25bf3c631de2508

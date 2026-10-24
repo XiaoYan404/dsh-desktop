@@ -1,0 +1,16 @@
+# Bilingual-pair consistency record for guide.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write docs/upgrade-guide/v0.2.1-alpha.2/mysql-json-integers/guide.md
+/:
+  en: 7c2e00e8f305f75a
+  zh: 561f22dd02f6533c
+/upgrade-mysql-json-integer-checks:
+  en: 6e88a0132deac1d7
+  zh: b6447cf7e4b668f4
+/upgrade-mysql-json-integer-checks/change:
+  en: 042fd1252f8f507f
+  zh: 176afdc10212d088
+/upgrade-mysql-json-integer-checks/migration:
+  en: c99f79741aea9afd
+  zh: 750c71a71aa3a9a4

@@ -1,0 +1,22 @@
+# Bilingual-pair consistency record for 2026-10-17-office-agent-work-reservations.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write .agents/notes/implemented/architecture/2026-10-17-office-agent-work-reservations.md
+/agent-note-reserve-internal-agent-work-before-publishing-its-item:
+  en: cdcdc97ed3ade9a0
+  zh: 0d53715a27945dc8
+/agent-note-reserve-internal-agent-work-before-publishing-its-item/problem:
+  en: 824fa2e58bd0c833
+  zh: ed7f7e1cbcd6e65c
+/agent-note-reserve-internal-agent-work-before-publishing-its-item/decision:
+  en: 05cec9a3df2c164a
+  zh: 5bf77fe71bf78513
+/agent-note-reserve-internal-agent-work-before-publishing-its-item/alternatives-considered:
+  en: 104951e2a23facbf
+  zh: 8857b1055105723b
+/agent-note-reserve-internal-agent-work-before-publishing-its-item/verification:
+  en: 096dde968d11548d
+  zh: b950f0f9229bbdd6
+/agent-note-reserve-internal-agent-work-before-publishing-its-item/consequences:
+  en: 52fb0d5289fa1898
+  zh: cb48504335c41374

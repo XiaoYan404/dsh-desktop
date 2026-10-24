@@ -1,0 +1,31 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/enterprise/office/automation/README.md
+/office-automation-reference:
+  en: 58c6699390bc7efb
+  zh: c58700eef24b5e4d
+/office-automation-reference/summary:
+  en: 9613396d1f490533
+  zh: c010ccbba82abdc3
+/office-automation-reference/table-of-contents:
+  en: 7e89877f1c280ca1
+  zh: fe7884884fb581df
+/office-automation-reference/rules-and-approval:
+  en: 14a9bf51dd9e1c4c
+  zh: 46d5c699f6f92e10
+/office-automation-reference/trigger-sources:
+  en: 25d60dc4432d402e
+  zh: dd5a88342f811760
+/office-automation-reference/recovery-and-compensation:
+  en: f31710fc9b47c597
+  zh: a66c131e10e472fd
+/office-automation-reference/storage-and-lifecycle:
+  en: 50a33d1494973e3e
+  zh: cbb89b6c61cd8fa9
+/office-automation-reference/product-integration:
+  en: 346b21eb9a5092a5
+  zh: e7698f940a9ebbe7
+/office-automation-reference/known-limitations:
+  en: 0641fd40349f771d
+  zh: 6bd8664285d38add

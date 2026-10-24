@@ -32,5 +32,17 @@ docs/mobile-connection-latency.zh.md
 # Local pnpm content store
 /.pnpm-store/
 /.build/
+/.artifacts/
+/local-only/
+/.idea/
+/development/.local-run/
+/development/runtime-links.json
+/development/toolchain.json
+/development/link-enterprise-runtime.mjs
+/development/prepare-enterprise-baseline.mjs
+/dist-enterprise/
+/development/**/.preview-data/
+/development/**/__pycache__/
+/development/**/会话记录_*.md
 /packages/ppt-runtime/templates/
 /packages/ppt-bundles/

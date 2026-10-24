@@ -1,0 +1,40 @@
+- main:
+  - text: 我的企业
+  - heading "Workbench" [level=1]
+  - button "Global search"
+  - button "Native workspace"
+  - button "Notifications"
+  - button "Profile": 办 办公验收用户 Employee · 运营专员
+  - heading "Today at work" [level=2]
+  - text: Pending
+  - strong: "1"
+  - text: Completed
+  - strong: "1"
+  - text: Tasks and to-dos
+  - strong: "1"
+  - text: Events
+  - strong: "1"
+  - text: Completion 50%
+  - progressbar
+  - button "Assign task"
+  - button "New event"
+  - heading "Calendar" [level=2]
+  - button "Calendar"
+  - button "New to-do"
+  - button "2026-01-12": 01-12
+  - button "2026-01-13": 01-13
+  - button "2026-01-14": 01-14
+  - button "2026-01-15" [pressed]: 01-15
+  - button "2026-01-16": 01-16
+  - button "2026-01-17": 01-17
+  - button "2026-01-18": 01-18
+  - button "{{clock}}–{{clock}} 项目例会 办公验收用户 Pending"
+  - button "Unscheduled 核对发票 办公验收用户 Completed"
+  - region "Company announcements":
+    - heading "Company announcements" [level=2]
+    - paragraph: No announcements
+  - heading "AI chat" [level=2]
+  - button "Open conversation"
+  - textbox "Tell the Agent what you want to get done"
+  - button "Attach files"
+  - button "Send" [disabled]

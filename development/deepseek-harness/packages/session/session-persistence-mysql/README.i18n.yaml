@@ -1,0 +1,52 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/session/session-persistence-mysql/README.md
+/:
+  en: aac56e3ea7bc70a5
+  zh: 688a3a40579c976d
+/deepseek-ai-dsh-session-persistence-mysql:
+  en: fb43de02f928e566
+  zh: 5fec0c54b18f0f53
+/deepseek-ai-dsh-session-persistence-mysql/summary:
+  en: 1abccf5aa03e4538
+  zh: e72231b2350a5977
+/deepseek-ai-dsh-session-persistence-mysql/table-of-contents:
+  en: d152484eb41ac6b4
+  zh: a134331a31395608
+/deepseek-ai-dsh-session-persistence-mysql/use-this-package:
+  en: 87a5c686b720104a
+  zh: 1cfa1a469b8e1fb8
+/deepseek-ai-dsh-session-persistence-mysql/use-this-package/handles-and-recovery:
+  en: 7c346d33ffb633be
+  zh: fe384562a916723f
+/deepseek-ai-dsh-session-persistence-mysql/understand-the-implementation:
+  en: 2f8bde573c9bf291
+  zh: fb5fb6548e1ecb58
+/deepseek-ai-dsh-session-persistence-mysql/understand-the-implementation/source-map:
+  en: 36322f9031c3ca64
+  zh: ff75cac96d794261
+/deepseek-ai-dsh-session-persistence-mysql/further-exploration:
+  en: 74fd308a8c1de5c4
+  zh: f88300b672c54bd9
+/deepseek-ai-dsh-session-persistence-mysql/model-experience:
+  en: 215e7ba838619b7b
+  zh: a311da3843709f90
+/deepseek-ai-dsh-session-persistence-mysql/model-experience/restored-history:
+  en: af9a6e2fdfb3eb09
+  zh: 5cee3d5d560a6df8
+/deepseek-ai-dsh-session-persistence-mysql/model-experience/restored-history/what-the-model-sees:
+  en: 871df83ad3ef6422
+  zh: 9c0b5a4ad6d50a1e
+/deepseek-ai-dsh-session-persistence-mysql/model-experience/restored-history/token-effect:
+  en: 4ea40986bba18340
+  zh: b97354450049af33
+/deepseek-ai-dsh-session-persistence-mysql/model-experience/restored-history/kv-cache-effect:
+  en: b74212662802dedb
+  zh: 9deff2ce714ecbc2
+/deepseek-ai-dsh-session-persistence-mysql/known-limitations-and-deferred-work:
+  en: e0099eec6f751f01
+  zh: 69509be6fc14ca28
+/deepseek-ai-dsh-session-persistence-mysql/known-limitations-and-deferred-work/dev-note:
+  en: e67f633dc6fe7773
+  zh: e88aeb617ffb74ea

@@ -1,0 +1,47 @@
+{
+  "unit": {
+    "name": "enterprise_office_drive",
+    "version": 1
+  },
+  "global": {
+    "revision": 1,
+    "nodes": [
+      {
+        "id": "3c9fcca8-8ed1-4f2c-a687-e3a96f900184",
+        "parentId": null,
+        "space": "private",
+        "ownerId": "reviewed-image-admin",
+        "kind": "file",
+        "name": "reviewed-6025ec15-6d01-41e9-8eef-4f816e572918.png",
+        "revision": 1,
+        "createdAt": 1792407541822,
+        "updatedAt": 1792407541822,
+        "defaultAccess": "inherit",
+        "grants": [],
+        "deletedAt": null,
+        "versions": [
+          {
+            "id": "c63e290a-7a6b-4480-9384-bd325f6e9fe4",
+            "byteLength": 12581888,
+            "sha256": "273b9b041de1f06276e96564ff944319bbb3f21544b65c59aeea0a710f9cf413",
+            "mediaType": "image/png",
+            "actorId": "reviewed-image-admin",
+            "createdAt": 1792407541822,
+            "requestId": "42701af0-94c4-489b-a824-6ae941ac6038",
+            "requestFingerprint": "fc421518e7018ca41e9b4d6a701bfea8d6d67ff22bddd6946969c2c08fdb7ea1"
+          }
+        ]
+      }
+    ],
+    "audit": [
+      {
+        "revision": 1,
+        "actorId": "reviewed-image-admin",
+        "targetId": "3c9fcca8-8ed1-4f2c-a687-e3a96f900184",
+        "time": 1792407541822,
+        "action": "file_uploaded"
+      }
+    ]
+  },
+  "tables": {}
+}

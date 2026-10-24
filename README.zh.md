@@ -23,6 +23,8 @@
 
 DSH Desktop 把本地 DeepSeek Harness 封装为可安装的桌面应用。它会自动启动 Harness，把 Profile、插件、工作区、模型配置和会话保存在应用安装目录之外，并在本地 Runtime 就绪后直接进入完整 Harness 界面。
 
+本分支同时归拢企业办公 Agent 源码、原型、开发记录及 Windows GUI 热开发安装输入，详见[工程迁移与安装说明](project-docs/迁移与安装.md)。`npm run dev`默认打开企业办公GUI，原桌面开发方式保留为`npm run dev:classic`。本分支企业热开发安装包未签名，下方签名说明来自上游发行流程，实际验证见交付记录。
+
 > [!IMPORTANT]
 > DSH Desktop 当前处于早期预览阶段，基于仍在快速迭代的 `@deepseek-ai/dsh@0.2.0-rc.2`。macOS 正式包已完成代码签名并通过 Apple 公证；Windows x64 安装包也已完成代码签名。随着下载量、安装量和发行者信誉逐步积累，Windows 安全提示会逐渐减少，但不会立即消失。
 

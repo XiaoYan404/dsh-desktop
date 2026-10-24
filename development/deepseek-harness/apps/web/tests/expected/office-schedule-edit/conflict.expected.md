@@ -1,0 +1,33 @@
+- dialog "Edit event":
+  - heading "Edit event" [level=2]
+  - button "Close"
+  - alert:
+    - paragraph: This event changed elsewhere. Your draft is preserved. Load the latest event before editing again.
+    - button "Load latest event"
+  - text: Title
+  - textbox "Title": Preserved draft after conflict
+  - text: Date
+  - textbox "Date": 2026-10-15
+  - text: Start time
+  - textbox "Start time": 10:00
+  - text: End time
+  - textbox "End time": 11:00
+  - text: Location
+  - textbox "Location"
+  - text: Notes
+  - textbox "Notes"
+  - group "Invite members":
+    - text: Invite members
+    - checkbox "Office administrator" [disabled]
+    - text: Office administrator
+    - checkbox "Lin" [checked] [disabled]
+    - text: Lin
+    - checkbox "Chen" [checked] [disabled]
+    - text: Chen
+  - paragraph: New members receive invitations. Removed members receive a notice and lose event access. Other replies are retained unless the time changes. The organizer always participates.
+  - paragraph: Changing the date or time requires invitees to reply again.
+  - region "Schedule time check":
+    - paragraph: Checks only events you can view. Other members may have private commitments.
+    - status
+  - button "Cancel"
+  - button "Save" [disabled]

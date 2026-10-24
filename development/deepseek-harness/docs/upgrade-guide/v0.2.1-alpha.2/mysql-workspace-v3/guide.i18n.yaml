@@ -1,0 +1,16 @@
+# Bilingual-pair consistency record for guide.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write docs/upgrade-guide/v0.2.1-alpha.2/mysql-workspace-v3/guide.md
+/:
+  en: 997b930c5a50bf22
+  zh: 9a5a02f286dd88bb
+/upgrade-the-mysql-workspace-schema:
+  en: af2935f34109e830
+  zh: e69fbc2cc78f72e5
+/upgrade-the-mysql-workspace-schema/change:
+  en: ec40866430378c7b
+  zh: 615f0510f3e36b64
+/upgrade-the-mysql-workspace-schema/migration:
+  en: 2ea1e7a5c0936088
+  zh: 7bc7228cbb517c4d

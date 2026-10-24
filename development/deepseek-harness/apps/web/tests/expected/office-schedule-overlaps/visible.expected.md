@@ -1,0 +1,7 @@
+- region "Schedule time check":
+  - paragraph: Checks only events you can view. Other members may have private commitments.
+  - status:
+    - paragraph: These events overlap. Confirm the time with the affected members before arranging the event.
+    - list:
+      - listitem: Own busy meeting · 10:00–11:00 · 本机用户
+      - listitem: Shared colleague meeting · 10:00–11:00 · Schedule colleague

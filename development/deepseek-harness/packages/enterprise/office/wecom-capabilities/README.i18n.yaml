@@ -1,0 +1,22 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/enterprise/office/wecom-capabilities/README.md
+/wecom-commissioning-reference:
+  en: 296a73226ca382a0
+  zh: 2941bd2e94561035
+/wecom-commissioning-reference/summary:
+  en: 058d94eeaa56aa34
+  zh: 397033de1a2b3845
+/wecom-commissioning-reference/table-of-contents:
+  en: ddf7dcb9199ff50d
+  zh: 24cfced44baea2f0
+/wecom-commissioning-reference/capability-evidence:
+  en: 82695ffc320b6599
+  zh: 3faec9f5eb0216f6
+/wecom-commissioning-reference/primary-protocol-dependency:
+  en: bc94080c529a4ea2
+  zh: 49806105ac562b58
+/wecom-commissioning-reference/customer-dependencies:
+  en: 1f322dc274b09a9a
+  zh: e06ee69708fdc2b7

@@ -1,0 +1,70 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/client/ui-office/README.md
+/:
+  en: 6a96d0e2f0024f36
+  zh: e9daed9b16e93530
+/deepseek-ai-dsh-client-ui-office:
+  en: cdfd8692b42a2184
+  zh: d387843fa2b5916e
+/deepseek-ai-dsh-client-ui-office/summary:
+  en: d7f65a3d879c7412
+  zh: 9b7ea1fd7512c23d
+/deepseek-ai-dsh-client-ui-office/table-of-contents:
+  en: 85ae920690e09162
+  zh: 7eea9b9d9aa43d6d
+/deepseek-ai-dsh-client-ui-office/use-this-package:
+  en: 921c50244db0909c
+  zh: 03cbea02891cc41b
+/deepseek-ai-dsh-client-ui-office/use-this-package/files-in-employee-chat:
+  en: 10bfb009ffda2276
+  zh: 3808ac8680662ae0
+/deepseek-ai-dsh-client-ui-office/use-this-package/local-integration-plugin-packages:
+  en: 4ab21afcb536963a
+  zh: 0a5598d4a5d7b1c1
+/deepseek-ai-dsh-client-ui-office/use-this-package/scenes-and-company-appearance:
+  en: a1eed205da046fbe
+  zh: 489b31c831ccc184
+/deepseek-ai-dsh-client-ui-office/understand-the-implementation:
+  en: 707c3af3d656a577
+  zh: 90b97237024b63a5
+/deepseek-ai-dsh-client-ui-office/understand-the-implementation/native-capability-acceptance:
+  en: c7537137307a0256
+  zh: 4d5fc64b4f875f89
+/deepseek-ai-dsh-client-ui-office/further-exploration:
+  en: 26f2e4f1f13efc57
+  zh: 3764cea8e74533ae
+/deepseek-ai-dsh-client-ui-office/model-experience:
+  en: 215e7ba838619b7b
+  zh: a311da3843709f90
+/deepseek-ai-dsh-client-ui-office/model-experience/home-prompt-handoff:
+  en: 650e7c35d8365f15
+  zh: e92e2c78b8828f68
+/deepseek-ai-dsh-client-ui-office/model-experience/home-prompt-handoff/what-the-model-sees:
+  en: 4b9a08a52ceca0c8
+  zh: f2fb12908eda14bc
+/deepseek-ai-dsh-client-ui-office/model-experience/home-prompt-handoff/token-effect:
+  en: 4101446991900af6
+  zh: 999d2f69b3b7c684
+/deepseek-ai-dsh-client-ui-office/model-experience/home-prompt-handoff/kv-cache-effect:
+  en: 7032e9b85e2fdbaf
+  zh: 55181fa3c7d79d72
+/deepseek-ai-dsh-client-ui-office/model-experience/declared-business-forms:
+  en: e0453f57dd2c48b0
+  zh: 5d812d97ec0313ef
+/deepseek-ai-dsh-client-ui-office/model-experience/declared-business-forms/what-the-model-sees:
+  en: ab250a461b7fc8d1
+  zh: 1e2e1796f0e872ba
+/deepseek-ai-dsh-client-ui-office/model-experience/declared-business-forms/token-effect:
+  en: a19316fbdcf2f334
+  zh: 28b19be372678bfb
+/deepseek-ai-dsh-client-ui-office/model-experience/declared-business-forms/kv-cache-effect:
+  en: 1cd91e957c2d7918
+  zh: 4b9504fcdd962e2f
+/deepseek-ai-dsh-client-ui-office/known-limitations-and-deferred-work:
+  en: facf45a8b470d964
+  zh: 3704bbf898af63d6
+/deepseek-ai-dsh-client-ui-office/known-limitations-and-deferred-work/dev-note:
+  en: ac46de360a285bf1
+  zh: 38e0ea5aeedc003d

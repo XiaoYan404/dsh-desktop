@@ -1,0 +1,22 @@
+# Bilingual-pair consistency record for 2026-10-17-prepared-native-prompt-context.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write .agents/notes/implemented/architecture/2026-10-17-prepared-native-prompt-context.md
+/agent-note-capture-host-context-at-explicit-native-submission:
+  en: 99b0dcb9ce7a8f5a
+  zh: 8638f1eb1a4c2fe0
+/agent-note-capture-host-context-at-explicit-native-submission/problem:
+  en: c5ee0467972a856e
+  zh: 0cda1eb72476cb88
+/agent-note-capture-host-context-at-explicit-native-submission/decision:
+  en: b3c5a6687bd12d95
+  zh: 1b7fbf64777e581a
+/agent-note-capture-host-context-at-explicit-native-submission/alternatives-considered:
+  en: ab756cf4b76c363b
+  zh: 9ec61b0e1d26b65a
+/agent-note-capture-host-context-at-explicit-native-submission/verification:
+  en: 6993a61d4f6ea8b8
+  zh: 01701989477725f1
+/agent-note-capture-host-context-at-explicit-native-submission/consequences:
+  en: 94d94b639434c3cc
+  zh: be57f614ea3d8f57

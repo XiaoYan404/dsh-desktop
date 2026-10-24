@@ -1,0 +1,27 @@
+# Repository reference for base-backed headless/sdk profiles. Save this patch
+# outside the installation and explicitly install the two optional plugins.
+# Supply every DSH_MYSQL_* setting in the launching environment; the password
+# is resolved through the existing Host credential provider, never this file.
+- id: session-persistence-jsonl
+  disabled: true
+
+# Loader adds this to AgentLoop's static injections. Shipped profiles have no
+# agent-loop metadata injections; custom deployments must preserve their own.
+- id: agent-loop
+  inject: [sessionPersistence]
+
+- insert:
+    - id: mysql
+      name: '@deepseek-ai/dsh-mysql'
+      config:
+        host: !!js process.env.DSH_MYSQL_HOST
+        port: !!js Number(process.env.DSH_MYSQL_PORT)
+        database: !!js process.env.DSH_MYSQL_DATABASE
+        user: !!js process.env.DSH_MYSQL_USER
+        passwordRef: DSH_MYSQL_PASSWORD
+        schemaMode: verify
+
+    - id: session-persistence-mysql
+      name: '@deepseek-ai/dsh-session-persistence-mysql'
+      config:
+        storeKey: !!js process.env.DSH_MYSQL_STORE_KEY

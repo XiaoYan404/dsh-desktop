@@ -1,0 +1,10 @@
+version: 1
+scenario: goal-multi-turn-actions-windows
+profile: web
+composition: web-default
+recording: authored
+platform: pwsh
+header:
+  class: web-default-windows
+replay:
+  override: true

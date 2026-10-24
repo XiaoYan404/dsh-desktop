@@ -1,0 +1,25 @@
+- banner:
+  - navigation "Session hierarchy": Reference order target
+  - button "More actions"
+  - tablist:
+    - tab "Chat" [selected]
+    - tab "Trajectory"
+  - button "Conversations"
+  - button "Profile": 本 本机用户 Employee · 员工
+- text: Research notes what changed? Referenced session · Research notes {{clock}}
+- button "Copy"
+- status: Completed
+- button "Completed in {{duration}}" [disabled]
+- region "Association details":
+  - button "Link integrations"
+  - button "Link tools"
+  - button "Refresh"
+  - text: No integrations or tools linked
+- region "Conversation files":
+  - button "Link files"
+  - button "Refresh files"
+- textbox "Message or run a task, / commands, @ files or sessions"
+- button "Add files or run commands"
+- 'button "Access mode, current: Workspace Write"': Workspace Write
+- button "Select model, current DeepSeek-V4-Flash": DeepSeek-V4-Flash
+- button "Send message" [disabled]

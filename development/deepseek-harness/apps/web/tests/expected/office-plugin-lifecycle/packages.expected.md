@@ -1,0 +1,7 @@
+- listitem:
+  - strong: office-lifecycle
+  - text: · @fixture/office-connector
+  - paragraph: Installed · 0.0.2
+  - paragraph: Selected for enablement
+  - paragraph: Active 1 · Waiting or changing 0 · Failed 0 · 1 components
+  - 'button "Manage plugin package: @fixture/office-connector"': Manage plugin

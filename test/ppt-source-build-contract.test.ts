@@ -30,16 +30,18 @@ describe('PPT source build contract', () => {
   it('runs one preparation pipeline before dev, build, test, and package consumers', async () => {
     const manifest = JSON.parse(await readFile(path.join(projectRoot, 'package.json'), 'utf8'))
     expect(manifest.scripts['ppt:build']).toBe('node scripts/prepare-ppt-runtime.mjs')
-    for (const name of ['dev', 'build', 'pretest', 'pretest:watch']) {
+    expect(manifest.scripts.dev).toBe('npm run dev:enterprise')
+    for (const name of ['dev:classic', 'build', 'pretest', 'pretest:watch']) {
       const steps = manifest.scripts[name].split(' && ')
       expect(steps).toContain('npm run ppt:build')
-      if (name === 'dev' || name === 'build') {
+      if (name === 'dev:classic' || name === 'build') {
         expect(steps.indexOf('npm run ppt:build')).toBeLessThan(steps.length - 1)
       }
     }
-    for (const name of Object.keys(manifest.scripts).filter(name => name.startsWith('package:'))) {
+    for (const name of Object.keys(manifest.scripts).filter(name => name.startsWith('package:') && name !== 'package:enterprise:win')) {
       expect(manifest.scripts[name]).toContain('npm run build')
     }
+    expect(manifest.scripts['package:enterprise:win']).toBe('node scripts/package-enterprise-windows.mjs')
   })
 
   it('packages the current staged directories instead of node_modules links', async () => {

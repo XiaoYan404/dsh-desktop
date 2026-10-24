@@ -1,0 +1,19 @@
+# Bilingual-pair consistency record for 2026-10-15-employee-office-domain.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write .agents/notes/implemented/architecture/2026-10-15-employee-office-domain.md
+/agent-note-employee-office-data-stays-separate-from-agent-execution:
+  en: 9ef4834575272329
+  zh: 4ecc3033feae6781
+/agent-note-employee-office-data-stays-separate-from-agent-execution/problem:
+  en: 667656e6f444efa7
+  zh: ce93b2d6d8f060fc
+/agent-note-employee-office-data-stays-separate-from-agent-execution/decision:
+  en: 3b773a4fd763b3f3
+  zh: 885e4a1b9db34474
+/agent-note-employee-office-data-stays-separate-from-agent-execution/alternatives-considered:
+  en: 43cf613cdfbc415c
+  zh: 4e945fa781a7b5e5
+/agent-note-employee-office-data-stays-separate-from-agent-execution/consequences:
+  en: 529691eb274ece53
+  zh: cf2cd713f2e0b53a

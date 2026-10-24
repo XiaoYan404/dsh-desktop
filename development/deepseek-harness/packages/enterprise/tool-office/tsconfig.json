@@ -1,0 +1,21 @@
+{
+  "extends": "../../../tsconfig.base.json",
+  "compilerOptions": { "rootDir": "src", "outDir": "lib/types" },
+  "include": ["src"],
+  "references": [
+    { "path": "../../attachment/attachment" },
+    { "path": "../../../vendor/cordis" },
+    { "path": "../../../vendor/schemastery" },
+    { "path": "../../core/agent" },
+    { "path": "../../credentials/credentials" },
+    { "path": "../../core/scope" },
+    { "path": "../../core/session" },
+    { "path": "../../skill/skill" },
+    { "path": "../../session/session-projection" },
+    { "path": "../../core/tools" },
+    { "path": "../../llm/llm" },
+    { "path": "../../api/session-controller/tsconfig.host.json" },
+    { "path": "../../client/ui-office/tsconfig.host.json" },
+    { "path": "../office" }
+  ]
+}

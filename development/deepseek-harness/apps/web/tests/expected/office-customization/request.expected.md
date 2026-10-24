@@ -1,0 +1,14 @@
+- dialog "System and skill customization":
+  - heading "System and skill customization" [level=2]
+  - button "Close"
+  - paragraph: Requirements are saved only under your current company account and have not been sent to the product company. Export a saved version to deliver through a company-approved channel.
+  - text: System or skill name
+  - textbox "System or skill name": Private OA adapter
+  - text: Contact person
+  - textbox "Contact person": Office employee
+  - text: Requirements
+  - textbox "Requirements": Newer version from another window
+  - status: Saved, not sent · Version 3
+  - button "Save" [disabled]
+  - button "Export saved version"
+  - button "My customization requests"

@@ -1,0 +1,79 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/enterprise/office/README.md
+/:
+  en: 27bb3cf34de7a4b1
+  zh: 999976b60a87fd53
+/deepseek-ai-dsh-enterprise-office:
+  en: 0838f4552fe19fb9
+  zh: bbda4ecef73e8543
+/deepseek-ai-dsh-enterprise-office/summary:
+  en: 764d88217354fe84
+  zh: a8582c2560d58558
+/deepseek-ai-dsh-enterprise-office/table-of-contents:
+  en: 36e02678de4b4513
+  zh: eaeb502cad1bc988
+/deepseek-ai-dsh-enterprise-office/use-this-package:
+  en: c137231a4de0f33d
+  zh: 345497abfc1d9dc4
+/deepseek-ai-dsh-enterprise-office/understand-the-implementation:
+  en: 542711474e3d9e32
+  zh: 6d9ccda82a032f62
+/deepseek-ai-dsh-enterprise-office/understand-the-implementation/company-connections:
+  en: 9741683725143ab8
+  zh: e108163d0c46dd2b
+/deepseek-ai-dsh-enterprise-office/understand-the-implementation/message-provider-outbox:
+  en: 190cb4523c4d471b
+  zh: ed8148138b309ed2
+/deepseek-ai-dsh-enterprise-office/understand-the-implementation/synchronized-read-records:
+  en: 1652434b41522e15
+  zh: 76af55e08ea1d1b4
+/deepseek-ai-dsh-enterprise-office/understand-the-implementation/external-write-evidence:
+  en: b2732fc06792bc8b
+  zh: ff0f1b27ef763af7
+/deepseek-ai-dsh-enterprise-office/understand-the-implementation/resumable-drive-transfers:
+  en: 4f1521e381d1745e
+  zh: ec75609041876ad2
+/deepseek-ai-dsh-enterprise-office/understand-the-implementation/private-chat-files:
+  en: cf26ddfa10c871f1
+  zh: 886e15f542195789
+/deepseek-ai-dsh-enterprise-office/understand-the-implementation/durable-private-file-drafts:
+  en: a0b1a6df304a8542
+  zh: d133203e3b4ba82c
+/deepseek-ai-dsh-enterprise-office/conversation-associations:
+  en: 7277c671e27b4647
+  zh: 18b917600f04e084
+/deepseek-ai-dsh-enterprise-office/conversation-associations/prepared-contexts:
+  en: 3b9bf2115463a1ee
+  zh: e7884b7151376f0e
+/deepseek-ai-dsh-enterprise-office/conversation-associations/agent-work-execution:
+  en: 8038649f8a17647d
+  zh: b77557d0ddcb2826
+/deepseek-ai-dsh-enterprise-office/conversation-associations/drive-version-history-and-recovery:
+  en: 7494b82c238da4de
+  zh: e0b27dae9cbbfae1
+/deepseek-ai-dsh-enterprise-office/further-exploration:
+  en: bbbe298ba7155812
+  zh: d85285483b067915
+/deepseek-ai-dsh-enterprise-office/model-experience:
+  en: 215e7ba838619b7b
+  zh: a311da3843709f90
+/deepseek-ai-dsh-enterprise-office/model-experience/employee-business-data:
+  en: 6471cf6ccd17ef81
+  zh: de3fe7082e9fc42c
+/deepseek-ai-dsh-enterprise-office/model-experience/employee-business-data/what-the-model-sees:
+  en: 4cd51e78d985f210
+  zh: c08ee0bd8a3ae277
+/deepseek-ai-dsh-enterprise-office/model-experience/employee-business-data/token-effect:
+  en: 8a7e332153ebb1ae
+  zh: ea8a542f556a8bb7
+/deepseek-ai-dsh-enterprise-office/model-experience/employee-business-data/kv-cache-effect:
+  en: 88cb1452230bcede
+  zh: c35b96d7dcdab997
+/deepseek-ai-dsh-enterprise-office/known-limitations-and-deferred-work:
+  en: f9f4b5a8233947c5
+  zh: a13d14ff0ff3afbb
+/deepseek-ai-dsh-enterprise-office/known-limitations-and-deferred-work/dev-note:
+  en: ae7977202f18dca7
+  zh: 68b55c239c8fb8f7

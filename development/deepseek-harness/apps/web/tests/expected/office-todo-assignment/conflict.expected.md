@@ -1,0 +1,14 @@
+- heading "Reassign to-do" [level=2]
+- alert:
+  - paragraph: This to-do changed. Your input is preserved. Load the latest to-do and review it again.
+  - button "Load latest to-do"
+- text: New assignee
+- combobox "New assignee":
+  - option "Choose a different assignee"
+  - option "Office administrator"
+  - option "Lin" [selected]
+- text: Reason
+- textbox "Reason": Preserved transfer reason
+- paragraph: Explain the reassignment. The new assignee will receive it as pending work.
+- button "Cancel"
+- button "Save" [disabled]

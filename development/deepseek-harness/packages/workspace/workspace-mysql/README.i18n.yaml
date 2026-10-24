@@ -1,0 +1,25 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/workspace/workspace-mysql/README.md
+/:
+  en: a6f5d5311ad27f1e
+  zh: 66fbaa4e0c9d9907
+/deepseek-ai-dsh-workspace-mysql:
+  en: e0003a7c016f0e2b
+  zh: 7a041fa807c39c06
+/deepseek-ai-dsh-workspace-mysql/use-this-package:
+  en: e9ff50b0d195c38d
+  zh: 1bb874130239088a
+/deepseek-ai-dsh-workspace-mysql/persistence-and-lifecycle:
+  en: 1929bf14ad0bc095
+  zh: 84aefaca82cc5bbf
+/deepseek-ai-dsh-workspace-mysql/model-experience:
+  en: 215e7ba838619b7b
+  zh: a311da3843709f90
+/deepseek-ai-dsh-workspace-mysql/model-experience/workspace-context:
+  en: e5955a43fd12f2c0
+  zh: 9c9de282298f6a76
+/deepseek-ai-dsh-workspace-mysql/known-limitations-and-deferred-work:
+  en: 3aacfe186f2b981e
+  zh: 1363f574025b0b4d

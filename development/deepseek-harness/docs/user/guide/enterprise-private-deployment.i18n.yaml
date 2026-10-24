@@ -1,0 +1,37 @@
+# Bilingual-pair consistency record for enterprise-private-deployment.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write docs/user/guide/enterprise-private-deployment.md
+/prepare-a-private-office-deployment:
+  en: f32e46df3a5bc834
+  zh: 3411b549f873eef0
+/prepare-a-private-office-deployment/summary:
+  en: 6bc74f2172ce4321
+  zh: b89150a987be1d11
+/prepare-a-private-office-deployment/table-of-contents:
+  en: 24ebf109d2f10f26
+  zh: 41cb24bb53d6e4a9
+/prepare-a-private-office-deployment/prepare-and-inspect:
+  en: 862e648ecae5e461
+  zh: 5998eafa4584b072
+/prepare-a-private-office-deployment/verify-artifacts-and-endpoints:
+  en: a15dbbf796d2b2a9
+  zh: 259b3a11e87ba982
+/prepare-a-private-office-deployment/apply-the-deployment:
+  en: cf427429525ba4d0
+  zh: 579b67cbf0b864db
+/prepare-a-private-office-deployment/network-choices-and-data-locations:
+  en: b25de9dc648feb2c
+  zh: bea81eaeb36decd1
+/prepare-a-private-office-deployment/offline-backup-and-recovery:
+  en: f4af2c9f232dbbd9
+  zh: 0cf6450afe5377fc
+/prepare-a-private-office-deployment/upgrade-and-rollback:
+  en: 9d8c826630a6689f
+  zh: c76028e48c42022e
+/prepare-a-private-office-deployment/customer-configuration-and-limits:
+  en: 68975e271f6d42b9
+  zh: 762e1db3d4dcfcd3
+/prepare-a-private-office-deployment/dev-note:
+  en: b75c8458928b72b9
+  zh: 003ba4e17b4b5269

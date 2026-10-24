@@ -1,0 +1,10 @@
+version: 1
+scenario: approval-composer-windows
+profile: web
+composition: web-default
+recording: authored
+platform: pwsh
+header:
+  class: web-default-windows
+workspace:
+  final: true

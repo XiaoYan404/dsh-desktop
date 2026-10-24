@@ -1,0 +1,28 @@
+# Bilingual-pair consistency record for mysql-sessions.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write docs/user/guide/mysql-sessions.md
+/select-mysql-for-cli-and-sdk-sessions:
+  en: daa29bfd72befaca
+  zh: 4ac7eab841836fa4
+/select-mysql-for-cli-and-sdk-sessions/summary:
+  en: 9ac97efa4d4235a8
+  zh: 6508bce3a873dbb1
+/select-mysql-for-cli-and-sdk-sessions/table-of-contents:
+  en: c010f18eae7e0914
+  zh: 76be4c5164a39584
+/select-mysql-for-cli-and-sdk-sessions/prepare-the-deployment:
+  en: ab10446a5c69f47b
+  zh: cb22f2aa9961387d
+/select-mysql-for-cli-and-sdk-sessions/choose-the-patch:
+  en: 7191da817998dd48
+  zh: 93adc00382755170
+/select-mysql-for-cli-and-sdk-sessions/run-the-cli-or-sdk:
+  en: d1bab719ad91f1d5
+  zh: 5c65d0faaf22c473
+/select-mysql-for-cli-and-sdk-sessions/inspect-data-and-failures:
+  en: a1e023a87374369e
+  zh: 960fe56294944273
+/select-mysql-for-cli-and-sdk-sessions/deployment-limits:
+  en: 2772cf1a5c70dcc5
+  zh: 71a68279aee2e5f7

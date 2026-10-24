@@ -1,0 +1,112 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/enterprise/tool-office/README.md
+/:
+  en: 15173d8b8e403583
+  zh: 07684d3bb608739f
+/native-office-tools:
+  en: 54e97a85c3c56e87
+  zh: 0abef5501e96374f
+/native-office-tools/summary:
+  en: acb5bcdbdfcf195c
+  zh: 6c60dfbe490003d6
+/native-office-tools/table-of-contents:
+  en: 1223e87f089daee7
+  zh: 8fb367e643fba50a
+/native-office-tools/configuration:
+  en: 909ef67f68a552c9
+  zh: 319e476c10d32419
+/native-office-tools/execution:
+  en: 0a38c57bc67aa19c
+  zh: 625ff56731775e06
+/native-office-tools/execution/meeting-minutes-automation:
+  en: f77f3ecfe3931e3b
+  zh: 93e6ee35d7b1f7ad
+/native-office-tools/execution/daily-reports-and-reimbursement-checks:
+  en: e3461dca8495cea9
+  zh: dcb4062b8a343b90
+/native-office-tools/execution/native-task-reminders:
+  en: 5cbb0048a86fe7d2
+  zh: 86a4e645154774c9
+/native-office-tools/dev-note:
+  en: 86751d759272699b
+  zh: 7ec3aa549c6170bf
+/native-office-tools/model-experience:
+  en: 215e7ba838619b7b
+  zh: a311da3843709f90
+/native-office-tools/model-experience/internal-work-creation:
+  en: d4974d8f2546d65e
+  zh: 2d5ea848ad008cbd
+/native-office-tools/model-experience/internal-work-creation/what-the-model-sees:
+  en: 64446e08416e8fda
+  zh: 2ac358f2a045f1e6
+/native-office-tools/model-experience/internal-work-creation/token-effect:
+  en: a498dc3d44a63392
+  zh: 8f3b775596bb3c6b
+/native-office-tools/model-experience/internal-work-creation/kv-cache-effect:
+  en: f60300f314ccef7b
+  zh: 39dffc91c363cf5e
+/native-office-tools/model-experience/company-system-queries:
+  en: 03cca79fdd4dafd9
+  zh: a5879c663d06911b
+/native-office-tools/model-experience/company-system-queries/what-the-model-sees:
+  en: b3a91ffb9cd6e77b
+  zh: 82a881e37009cdb4
+/native-office-tools/model-experience/company-system-queries/token-effect:
+  en: de8899c79112036d
+  zh: a8116258b9c9dda8
+/native-office-tools/model-experience/company-system-queries/kv-cache-effect:
+  en: 5ec47b70134a197f
+  zh: 6c8c93d239a1c0f4
+/native-office-tools/model-experience/company-system-submissions:
+  en: 586900db830d0cfa
+  zh: c3f14536b5040a47
+/native-office-tools/model-experience/company-system-submissions/what-the-model-sees:
+  en: 09267348d90f054d
+  zh: 521e2a0ec5a683bd
+/native-office-tools/model-experience/company-system-submissions/token-effect:
+  en: 40d7b011f8b4aedc
+  zh: f07c60ac77a214b7
+/native-office-tools/model-experience/company-system-submissions/kv-cache-effect:
+  en: 19dced4b9836225f
+  zh: 0ea023f64945878e
+/native-office-tools/model-experience/submitted-company-files:
+  en: 49424acbce824c1e
+  zh: 2871fb33a3d476d2
+/native-office-tools/model-experience/submitted-company-files/what-the-model-sees:
+  en: e54ac2cf04f0ac3f
+  zh: 770670faa4f23e24
+/native-office-tools/model-experience/submitted-company-files/token-effect:
+  en: 6bf782784d1601ed
+  zh: e719af8d08fa41d0
+/native-office-tools/model-experience/submitted-company-files/kv-cache-effect:
+  en: 25bec9fb47c1176f
+  zh: ba1756c33fa44914
+/native-office-tools/model-experience/meeting-minutes:
+  en: 1200125238e5caca
+  zh: 673f8f8eeacf673b
+/native-office-tools/model-experience/meeting-minutes/what-the-model-sees:
+  en: a1585536bad0910b
+  zh: 1ef829a2427311e0
+/native-office-tools/model-experience/meeting-minutes/token-effect:
+  en: 89a921a020c06985
+  zh: 87f347da364dfb63
+/native-office-tools/model-experience/meeting-minutes/kv-cache-effect:
+  en: 33b94607ca501d43
+  zh: 9fbeeacad1ab4b8f
+/native-office-tools/model-experience/daily-reports-reimbursement-checks-and-reminders:
+  en: 71e67797ed8692f4
+  zh: 0361a9ec6037a280
+/native-office-tools/model-experience/daily-reports-reimbursement-checks-and-reminders/what-the-model-sees:
+  en: 4431050c3d1422a4
+  zh: 1fbaa491dbe80b73
+/native-office-tools/model-experience/daily-reports-reimbursement-checks-and-reminders/token-effect:
+  en: 70121cfc6a00fad7
+  zh: eec735043b76a326
+/native-office-tools/model-experience/daily-reports-reimbursement-checks-and-reminders/kv-cache-effect:
+  en: 3ca07bfd98ef520d
+  zh: 6c69bc972ab5704d
+/native-office-tools/known-limitations-and-deferred-work:
+  en: c779f730603551ad
+  zh: 7b95b9768c1fc9b8

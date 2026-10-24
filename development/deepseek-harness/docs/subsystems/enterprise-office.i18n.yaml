@@ -1,0 +1,49 @@
+# Bilingual-pair consistency record for enterprise-office.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write docs/subsystems/enterprise-office.md
+/employee-office-domain:
+  en: 1698e66ddf4f5e50
+  zh: 441c18ceb1446c4e
+/employee-office-domain/identity-and-authorization:
+  en: 811cb2fab10d1fac
+  zh: 321e3762417b5b2e
+/employee-office-domain/resumable-drive-protocol:
+  en: 4e9641fa75dcd9cc
+  zh: 7965dfeeb2f8086a
+/employee-office-domain/drive-versions-and-recovery:
+  en: 78c04f84e82ec637
+  zh: 440ef16b21c5dcde
+/employee-office-domain/private-chat-files:
+  en: 90f5656c5a859733
+  zh: 97a84e85da1d257a
+/employee-office-domain/durable-private-file-drafts:
+  en: 6ad48f1d67bca54e
+  zh: 7ff3a841218f2a59
+/employee-office-domain/formal-organization:
+  en: fdca81dd31a0f8e0
+  zh: ef200a7c191f0f48
+/employee-office-domain/company-integrations:
+  en: a1a753e17bf42a2b
+  zh: ef1436b5353c5585
+/employee-office-domain/private-customization-requests:
+  en: c7bd15f63dae5da5
+  zh: 91c37877bfe9816a
+/employee-office-domain/private-conversation-associations:
+  en: 27c2a415291b2529
+  zh: 640924eaef83a458
+/employee-office-domain/captured-agent-work:
+  en: b6610a330b67bd54
+  zh: 49db3096173d6b79
+/employee-office-domain/company-announcements:
+  en: fcf137325b23dd86
+  zh: 01c36c7a1da8ff24
+/employee-office-domain/work-and-invitations:
+  en: 1c12af76300bbe12
+  zh: e769012322064b34
+/employee-office-domain/projections-and-durable-commits:
+  en: 09927423ae9b07ce
+  zh: e0290d2504444be8
+/employee-office-domain/cordis-surface:
+  en: 8b5fa430a803a5d1
+  zh: d26a7cddc8859838

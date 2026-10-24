@@ -1,0 +1,22 @@
+# Bilingual-pair consistency record for 2026-10-17-external-write-evidence.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write .agents/notes/implemented/architecture/2026-10-17-external-write-evidence.md
+/agent-note-external-write-evidence-separates-dispatch-from-a-known-outcome:
+  en: 2611d6c80e1b9ad8
+  zh: 1b7f72127dfa6bab
+/agent-note-external-write-evidence-separates-dispatch-from-a-known-outcome/problem:
+  en: abfbc19acc201537
+  zh: e4bd7e3db0486cb9
+/agent-note-external-write-evidence-separates-dispatch-from-a-known-outcome/decision:
+  en: f7469067d20b1519
+  zh: a2cab3de9cb43743
+/agent-note-external-write-evidence-separates-dispatch-from-a-known-outcome/alternatives-considered:
+  en: 6fd2b8d9627baf5a
+  zh: 03b8da201a73aaf5
+/agent-note-external-write-evidence-separates-dispatch-from-a-known-outcome/verification:
+  en: 9e753b86837214ff
+  zh: 5d66af1c93cdd6eb
+/agent-note-external-write-evidence-separates-dispatch-from-a-known-outcome/consequences:
+  en: 63ffd180ba273e70
+  zh: f476111ef712d1a1

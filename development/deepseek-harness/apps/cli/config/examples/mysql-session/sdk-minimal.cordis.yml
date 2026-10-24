@@ -1,0 +1,26 @@
+# Standalone sdk-minimal has a different JSONL row and no credentials service.
+# Explicitly install these optional plugins in this profile before booting it.
+- id: sessions
+  disabled: true
+
+- id: agent-loop
+  inject: [sessionPersistence]
+
+- insert:
+    - id: credentials
+      name: '@deepseek-ai/dsh-credentials-local'
+
+    - id: mysql
+      name: '@deepseek-ai/dsh-mysql'
+      config:
+        host: !!js process.env.DSH_MYSQL_HOST
+        port: !!js Number(process.env.DSH_MYSQL_PORT)
+        database: !!js process.env.DSH_MYSQL_DATABASE
+        user: !!js process.env.DSH_MYSQL_USER
+        passwordRef: DSH_MYSQL_PASSWORD
+        schemaMode: verify
+
+    - id: session-persistence-mysql
+      name: '@deepseek-ai/dsh-session-persistence-mysql'
+      config:
+        storeKey: !!js process.env.DSH_MYSQL_STORE_KEY

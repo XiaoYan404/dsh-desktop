@@ -1,0 +1,23 @@
+.panel, .form, .fields { display: grid; gap: 16px; min-width: 0; color: var(--dsw-alias-office-ink); font-family: var(--dsw-font-family); font-size: 13px; line-height: 22px; }
+.panel h2, .panel h3, .panel p, .form p { margin: 0; }
+.panel h2, .panel h3, .phase legend, .card strong { font-size: 13px; font-weight: 500; }
+.dialog { width: min(780px, calc(100vw - 32px)); min-width: 0; max-width: 100%; max-height: 100%; }
+.content { min-width: 0; min-height: 0; overflow: auto; overscroll-behavior: contain; scrollbar-gutter: stable; }
+.fields { margin: 0; padding: 0; border: 0; }
+.toolbar, .actions { display: flex; align-items: center; flex-wrap: wrap; gap: 8px; }
+.toolbar { justify-content: space-between; }
+.list { display: grid; gap: 12px; margin: 0; padding: 0; list-style: none; min-width: 0; }
+.card, .phase { display: grid; gap: 12px; min-width: 0; margin: 0; padding: 16px; border: 0.5px solid var(--dsw-alias-office-stroke); border-radius: var(--dsw-radius-md); background: var(--dsw-alias-office-surface); }
+.card strong, .meta, .hint, .notice { overflow-wrap: anywhere; }
+.meta, .hint, .details dt { color: var(--dsw-alias-office-muted); }
+.notice { padding: 12px; border: 0.5px solid var(--dsw-alias-office-stroke); border-radius: var(--dsw-radius-md); background: var(--dsw-alias-office-recessed); }
+.field { display: grid; gap: 6px; min-width: 0; }
+.field select { box-sizing: border-box; width: 100%; min-width: 0; min-height: 36px; padding: 6px 10px; border: 0.5px solid var(--dsw-alias-office-stroke); border-radius: var(--dsw-radius-sm); font: inherit; color: var(--dsw-alias-office-ink); background: var(--dsw-alias-office-surface); }
+.field input { width: 100%; min-width: 0; box-sizing: border-box; }
+.field select:focus-visible, .card summary:focus-visible { outline: var(--dsw-focus-ring-width, 2px) solid var(--dsw-focus-ring-color, var(--dsw-alias-state-business-primary)); outline-offset: 2px; }
+.details { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px 20px; margin: 0; min-width: 0; }
+.details > div { min-width: 0; }
+.details dt, .details dd { margin: 0; white-space: pre-wrap; overflow-wrap: anywhere; }
+.card summary { cursor: pointer; color: var(--dsw-alias-office-accent); }
+.card details[open] > summary { margin-bottom: 12px; }
+@media (max-width: 600px) { .details { grid-template-columns: minmax(0, 1fr); } .card, .phase { padding: 12px; } }

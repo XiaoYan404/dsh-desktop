@@ -1,0 +1,61 @@
+{
+  "unit": {
+    "name": "enterprise_office_conversation_files",
+    "version": 1
+  },
+  "global": {
+    "entries": [
+      {
+        "ownerId": "reviewed-image-admin",
+        "fingerprint": "df6ec7fecb281a577d40618ed7b0a49d25eb457b823101efbb80c7633123f566",
+        "selection": {
+          "conversationId": "reviewed-image-791bc0df-02e1-4bbf-93af-e2af1e31f3be",
+          "revision": 1,
+          "requestId": "14911175-4c8b-44d9-94e2-3ff0fa6bd5b5",
+          "updatedAt": 1792407541960,
+          "files": [
+            {
+              "id": "3c9fcca8-8ed1-4f2c-a687-e3a96f900184",
+              "versionId": "c63e290a-7a6b-4480-9384-bd325f6e9fe4",
+              "name": "reviewed-6025ec15-6d01-41e9-8eef-4f816e572918.png",
+              "mediaType": "image/png",
+              "byteLength": 12581888,
+              "sha256": "273b9b041de1f06276e96564ff944319bbb3f21544b65c59aeea0a710f9cf413"
+            }
+          ]
+        }
+      }
+    ],
+    "captures": [
+      {
+        "fingerprint": "c3e3cff8efac84036665f9aa758cc2335d717a1e3782ee39ee37e19ec09ea0b3",
+        "capture": {
+          "format": 1,
+          "id": "2b68c5f1-a7b5-4534-83af-853b96ba9313",
+          "requestId": "cbfaa8e2-d07d-4e4d-8b64-fa541da8cd55",
+          "memberId": "reviewed-image-admin",
+          "role": "admin",
+          "capturedAt": 1792407542016,
+          "selection": {
+            "conversationId": "reviewed-image-791bc0df-02e1-4bbf-93af-e2af1e31f3be",
+            "revision": 1,
+            "requestId": "14911175-4c8b-44d9-94e2-3ff0fa6bd5b5",
+            "updatedAt": 1792407541960,
+            "files": [
+              {
+                "id": "3c9fcca8-8ed1-4f2c-a687-e3a96f900184",
+                "versionId": "c63e290a-7a6b-4480-9384-bd325f6e9fe4",
+                "name": "reviewed-6025ec15-6d01-41e9-8eef-4f816e572918.png",
+                "mediaType": "image/png",
+                "byteLength": 12581888,
+                "sha256": "273b9b041de1f06276e96564ff944319bbb3f21544b65c59aeea0a710f9cf413"
+              }
+            ]
+          },
+          "digest": "ce1e5e79eac5c8113ba12617b978ffad881c6606f7244fba307f7df2d7b720d6"
+        }
+      }
+    ]
+  },
+  "tables": {}
+}

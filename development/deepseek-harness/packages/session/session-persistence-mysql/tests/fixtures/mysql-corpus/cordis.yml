@@ -1,0 +1,16 @@
+# This test-only delta runs over the installed acp profile and the explicit MySQL example.
+# Every business event is produced by the public service owning it.
+- id: goal-round-driver
+  disabled: true
+
+- id: session-query-sqlite
+  disabled: true
+
+- id: acp
+  inject: [acpAppStartup, mysqlCorpusProducer]
+
+- insert:
+    - id: mysql-corpus-producer
+      name: ./producer.mjs
+      config:
+        evidenceFile: !!js process.env.DSH_MYSQL_CORPUS_EVIDENCE

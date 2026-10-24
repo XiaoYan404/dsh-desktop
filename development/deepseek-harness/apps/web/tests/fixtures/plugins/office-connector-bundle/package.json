@@ -1,0 +1,9 @@
+{
+  "name": "@fixture/office-connector",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "main": "./index.js",
+  "description": "Company adapter lifecycle fixture",
+  "dsh": { "bundle": { "patch": "./cordis.patch.yml" } }
+}

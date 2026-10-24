@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>序 · 企业工作台 — 桌面交互原型</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="desktop">
+    <header class="titlebar"><div class="title-brand"><span class="tiny-logo">序</span><span id="window-title">序 · 企业工作台</span><span class="title-divider"></span><span>桌面版</span></div><div class="window-actions"><button data-action="help" aria-label="原型说明">交互原型 <span class="version">V0.1.10</span></button><button data-action="minimize" aria-label="模拟最小化">−</button><button data-action="maximize" aria-label="切换紧凑视图">□</button><button data-action="close" aria-label="关闭说明">×</button></div></header>
+    <aside class="sidebar">
+      <button class="organization" data-action="organization"><span class="org-logo">序</span><span><strong id="org-name">远山科技</strong><small>企业智能工作空间</small></span><span class="chevrons">⌃<br>⌄</span></button>
+      <button class="new-chat" data-action="new-task"><span>＋</span> 新建任务 <kbd>Alt N</kbd></button>
+      <nav id="navigation" aria-label="主导航"></nav>
+      <div class="sidebar-projects"><div class="nav-label">置顶工作区 <button data-action="workspace" aria-label="添加工作区">＋</button></div><button data-action="workspace"><span class="project-dot green"></span>销售运营</button><button data-action="workspace"><span class="project-dot sand"></span>品牌与市场</button></div>
+      <div class="sidebar-bottom"><button data-page="settings" class="side-setting"><span data-icon="settings"></span>设置与连接</button><button class="user-profile" data-page="admin"><span class="avatar">林</span><span><strong>林晓</strong><small>企业管理员</small></span><span class="online-dot"></span></button></div>
+    </aside>
+    <div class="main-shell"><header class="topbar"><div class="breadcrumbs"><span id="breadcrumb-org">远山科技</span><span>/</span><strong id="breadcrumb">工作空间</strong></div><div class="top-actions"><button class="search-trigger" data-action="search"><span data-icon="search"></span><span>搜索工作台、任务、资料</span><kbd>Ctrl K</kbd></button><span class="local-status"><i></i>本地工作空间</span><button class="icon-button notification" data-page="tasks" aria-label="待处理通知"><span data-icon="bell"></span><i></i></button><span class="avatar small">林</span></div></header><main id="content" tabindex="-1"></main><footer class="statusbar"><span><i class="status-dot"></i>桌面交互原型 · 所有业务数据均为演示</span><span>基于 DSH Desktop 能力设计 <span class="footer-separator">|</span> 本地文件 · 未连接模型服务</span></footer></div>
+  </div>
+  <dialog id="modal" aria-labelledby="modal-title"><div class="modal-header"><h2 id="modal-title"></h2><button class="icon-button" data-action="dismiss" aria-label="关闭对话框">×</button></div><div id="modal-body"></div></dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <input id="file-picker" type="file" multiple hidden>
+  <script src="app.js"></script>
+</body>
+</html>

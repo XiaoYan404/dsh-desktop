@@ -1,0 +1,46 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/enterprise/office-gateway/README.md
+/:
+  en: 5ff5540c8d860da8
+  zh: 129635bac6b38707
+/deepseek-ai-dsh-enterprise-office-gateway:
+  en: db08b5233442e6ea
+  zh: d72bdca7d3df0ece
+/deepseek-ai-dsh-enterprise-office-gateway/summary:
+  en: 29d477cb87f506db
+  zh: 435fcdd5194955ad
+/deepseek-ai-dsh-enterprise-office-gateway/table-of-contents:
+  en: 4d5ec89f7a524c33
+  zh: 3a2f21ff0dc3420d
+/deepseek-ai-dsh-enterprise-office-gateway/use-this-package:
+  en: e1396366d4e14ee0
+  zh: 24c0f9b98157de78
+/deepseek-ai-dsh-enterprise-office-gateway/understand-the-implementation:
+  en: 185d66895085ee57
+  zh: edc7f9c053b9d705
+/deepseek-ai-dsh-enterprise-office-gateway/further-exploration:
+  en: 515eaf911ea487f2
+  zh: 180a60b3caacf849
+/deepseek-ai-dsh-enterprise-office-gateway/model-experience:
+  en: 215e7ba838619b7b
+  zh: a311da3843709f90
+/deepseek-ai-dsh-enterprise-office-gateway/model-experience/office-authentication:
+  en: 82561fe538e5181e
+  zh: 6967dc918361d54e
+/deepseek-ai-dsh-enterprise-office-gateway/model-experience/office-authentication/what-the-model-sees:
+  en: 6943aad02c65d91f
+  zh: 4f959c4aa61cc12a
+/deepseek-ai-dsh-enterprise-office-gateway/model-experience/office-authentication/token-effect:
+  en: 593e315913d3c312
+  zh: a90a724bf6ca55a3
+/deepseek-ai-dsh-enterprise-office-gateway/model-experience/office-authentication/kv-cache-effect:
+  en: eeb8549e58912068
+  zh: e80a5a8d54650d41
+/deepseek-ai-dsh-enterprise-office-gateway/known-limitations-and-deferred-work:
+  en: 68439dfb5450015f
+  zh: bfdddde48aefa12d
+/deepseek-ai-dsh-enterprise-office-gateway/known-limitations-and-deferred-work/dev-note:
+  en: 8261e16b5556f6cf
+  zh: 832adde947274d4b

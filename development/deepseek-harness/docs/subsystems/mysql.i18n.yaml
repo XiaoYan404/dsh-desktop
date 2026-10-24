@@ -1,0 +1,19 @@
+# Bilingual-pair consistency record for mysql.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write docs/subsystems/mysql.md
+/mysql:
+  en: 3af627494637334f
+  zh: b94f6c6d2c5a5ea4
+/mysql/statement-results:
+  en: d6a51f7923e80a11
+  zh: 66c5942833d93b7c
+/mysql/transactions-and-lifecycle:
+  en: 0a701051c1b80785
+  zh: 091138684e88b384
+/mysql/schema-identity:
+  en: 2bd701919699e22b
+  zh: 40250e91a0eac6a6
+/mysql/failure-ownership:
+  en: ca56bcef5df5c70c
+  zh: bad604d7d8657cb2

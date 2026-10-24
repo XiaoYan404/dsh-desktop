@@ -4,3 +4,6 @@ patches/*.patch whitespace=-space-before-tab
 
 # Preserve pinned third-party inputs byte-for-byte, including upstream whitespace.
 packages/ppt-runtime/upstream/** -whitespace
+
+# Preserve the imported pinned Cosmokit README byte-for-byte.
+development/deepseek-harness/vendor/cosmokit/README.md -whitespace
