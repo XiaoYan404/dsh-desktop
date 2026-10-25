@@ -70,5 +70,27 @@
     "completeReleaseBuild": false,
     "sceneConfigurationServiceUnavailable": true
   },
-  "privateSupplementReceipt": "local-only/consolidation-20261024T184401Z/runtime-script-supplements/manifest.json"
+  "privateSupplementReceipt": "local-only/consolidation-20261024T184401Z/runtime-script-supplements/manifest.json",
+  "workspaceRelocation": {
+    "date": "2026-10-25",
+    "repositoryDirectory": "dsh-desktop-for",
+    "originalWorkspaceArchive": "local-only/original-workspace",
+    "compatibility": [
+      "directory-junctions",
+      "file-hardlinks",
+      "compatibility-directories"
+    ],
+    "sourceFilesCompared": 15987,
+    "sourceFilesAlreadyMatched": 15914,
+    "generatedFilesAlreadyArchived": 68,
+    "latestTaskDocumentsMerged": 2,
+    "forkDifferencesPreserved": [
+      "packages/enterprise/office/src/message-provider.ts",
+      "parallel-tasks/01-native-runtime/task.md",
+      "scripts/gui-hot-development.ps1"
+    ],
+    "prototypeFilesMatched": 26,
+    "architectureDocumentsMatched": 2,
+    "verificationReceipt": "local-only/relocation-20261025"
+  }
 }
